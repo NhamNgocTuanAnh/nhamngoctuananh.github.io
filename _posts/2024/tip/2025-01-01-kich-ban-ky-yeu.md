@@ -19,7 +19,9 @@ permalink: kich-ban/ky-yeu-nhung-dieu-phai-luu-y
 skip_toc: true
 ---
 
- **I. Chuẩn Bị Kỹ Lưỡng – Nền Tảng Cho Thành Công**
+> bài viết đang phát triển, vui lòng quay lại sau
+
+**I. Chuẩn Bị Kỹ Lưỡng – Nền Tảng Cho Thành Công**
 
 Trước khi bấm máy, khâu chuẩn bị đóng vai trò vô cùng quan trọng, quyết định đến 50% sự thành công của buổi chụp. Một sự chuẩn bị chu đáo không chỉ giúp buổi chụp diễn ra suôn sẻ mà còn thể hiện sự chuyên nghiệp của bạn trong mắt khách hàng.
 
