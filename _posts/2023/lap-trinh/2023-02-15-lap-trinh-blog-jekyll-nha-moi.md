@@ -99,13 +99,13 @@ Nhưng rồi mình vẫn thấy Con web nhanh chết, chậm load(xuống 5s)-**
 
 <hr>
 
-Một người dùng luôn muốn có một trang web với giao diện admin chuyên nghiệp: biểu đồ cpu, ram chạy nhanh chuyên nghiệp, notify nhảy loạn xạ khi có người comment hay thống kê nhanh lượng người dùng trong vòng một ngày, giao diện kéo thả, viết ở mọi nơi chỉ cần có Internet, và cũng có khi - đó chỉ đơn giản là một editor tính năng tràn trề như chỉnh màu chữ, chèn hình, xử lý hình, font chữ to nhỏ, đổi kiểu chữ bay bướm loạn xạ. Static site sẽ không có những thứ đó cho bạn. Mình đã phát triển một công cụ để bạn soạn thảo markdown nhanh. Bạn có thể tham khảo ở [đây](https://anhhangxom.xyz/them-bai-viet)!.
+Một người dùng luôn muốn có một trang web với giao diện admin chuyên nghiệp: biểu đồ cpu, ram chạy nhanh chuyên nghiệp, notify nhảy loạn xạ khi có người comment hay thống kê nhanh lượng người dùng trong vòng một ngày, giao diện kéo thả, viết ở mọi nơi chỉ cần có Internet, và cũng có khi - đó chỉ đơn giản là một editor tính năng tràn trề như chỉnh màu chữ, chèn hình, xử lý hình, font chữ to nhỏ, đổi kiểu chữ bay bướm loạn xạ. Static site sẽ không có những thứ đó cho bạn. Mình đã phát triển một công cụ để bạn soạn thảo markdown nhanh. Bạn có thể tham khảo ở [đây](https://nhamngoctuananh.github.io/them-bai-viet)!.
 
 Hơn nữa có rất ít plugin Jekyll hỗ trợ chính thức trên Github pages. Những tính năng căn bản như contact form, bình luận sẽ phải nhùng từ một bên thứ 3. Tính năng comment mình đã từng dùng diqus - một thời gian trược bị chặn ở VN (khá cay, mình tưởng mình setting nhầm ở đâu), và giờ mình dùng của fb, dù khá hạn chế, và không có thông báo khi có một người nào đó bình luận.
 
 Hồi đó, mình còn gõ nhầm code Ruby, đẩy deploy không biết check action github pages, nó dừng tự bao giờ rồi mà cứ ngồi đợi nó chạy. Mỗi lần code, vừa code vừa dò, vừa đi tìm repo của mấy anh nước ngoài copy các tính năng về test bên mình. Mỗi lần commit, đợi code và web thay đổi mất 4-5p. Sau này mò được cách cài Jekyll trên Wsl làm sever test.
 
-Đến Jekyll bạn sẽ được tự do, tự lo =)) . Tối ưu sao cho [web nhanh](https://anhhangxom.xyz/lap-trinh/nen-website-minify). Nối tên miền vào github pages, cloudflare. caching, xóa cache. Ban đầu sẽ rất nhức đầu, không sao, khổ tận cam lai, nhưng sau này nhức đầu hơn vì bạn muốn làm những thứ xịn sò tiếp theo thì bạn phải code tay😌.\\
+Đến Jekyll bạn sẽ được tự do, tự lo =)) . Tối ưu sao cho [web nhanh](https://nhamngoctuananh.github.io/lap-trinh/nen-website-minify). Nối tên miền vào github pages, cloudflare. caching, xóa cache. Ban đầu sẽ rất nhức đầu, không sao, khổ tận cam lai, nhưng sau này nhức đầu hơn vì bạn muốn làm những thứ xịn sò tiếp theo thì bạn phải code tay😌.\\
 Cộng đồng sử dụng ở VN không nhiều. Mình phải search từ thuật toán phân trang, pin bài viết, cho đến dùng công cụ tìm kiếm gì - giờ mình dùng google cho nhẹ đầu😌. Cao nhân nào có giải pháp tốt hơn thì có thể gợi ý cho mình ở phần bình luận hoặc gửi vào mail cho mình. \\
 Công ty làm static site rất khó kiếm, bạn sẽ phải học rất nhiều-ít người hỗ trợ. Không sao, bạn có mình!😚
 

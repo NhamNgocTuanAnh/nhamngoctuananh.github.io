@@ -3,23 +3,6 @@ layout: default
 title: Trang chủ
 ---
 <hr>
-<div id="popup" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: #fffae6; border-left: 5px solid #facc15; padding: 16px 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 1000; max-width: 90%; display: none; border-radius: 8px; font-family: sans-serif;">
-  Chào bạn, website chính thức của tôi đã được chuyển sang địa chỉ mới tại
-  <strong>nhamngoctuananh.github.io</strong>.
-  Cảm ơn bạn đã đồng hành!
-  <button onclick="document.getElementById('popup').style.display='none'" style="margin-left: 20px; background: #facc15; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold;">
-    Đóng
-  </button>
-</div>
-<script>
-  // Hiển thị popup một lần mỗi lần refresh
-  window.addEventListener('load', () => {
-    if (!sessionStorage.getItem('popupShown')) {
-      document.getElementById('popup').style.display = 'block';
-      sessionStorage.setItem('popupShown', 'true');
-    }
-  });
-</script>
 <h2 id="h2-moi-nhat" class="mb-4 h2-animation">Bài viết mới nhất</h2>
 <div class="blog-grid-container">
 
@@ -126,3 +109,23 @@ title: Trang chủ
     }</style>
 
 
+<div id="popup" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); background: #fffae6; border-left: 5px solid #facc15; padding: 16px 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 1000; max-width: 90%; display: none; border-radius: 8px; font-family: sans-serif;">
+  Chào bạn, website chính thức của tôi đã được chuyển sang địa chỉ mới tại
+  <a href="https://nhamngoctuananh.github.io" target="_blank" style="font-weight: bold; color: #1d4ed8; text-decoration: none;">
+    nhamngoctuananh.github.io
+  </a>.
+  Cảm ơn bạn đã đồng hành!
+  <button onclick="document.getElementById('popup').style.display='none'" style="margin-left: 20px; background: #facc15; border: none; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-weight: bold;">
+    Đóng
+  </button>
+</div>
+
+<script>
+  // Hiển thị popup một lần mỗi lần refresh
+  window.addEventListener('load', () => {
+    if (!sessionStorage.getItem('popupShown')) {
+      document.getElementById('popup').style.display = 'block';
+      sessionStorage.setItem('popupShown', 'true');
+    }
+  });
+</script>
