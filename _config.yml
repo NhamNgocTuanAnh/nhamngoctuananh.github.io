@@ -50,6 +50,7 @@ plugins:
   - jekyll-archives
   - jekyll-figure
   - jekyll-toc
+  - jekyll-sitemap
 
 toc:
   min_level: 1
