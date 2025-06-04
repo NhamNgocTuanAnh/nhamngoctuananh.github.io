@@ -13,7 +13,7 @@
 
   {% for post in site.posts %}
   <url>
-    <loc>https://nhamngoctuananh.github.io/{{ post.url }}</loc>
+    <loc>https://nhamngoctuananh.github.io{{ post.url }}</loc>
     <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
