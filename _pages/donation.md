@@ -37,9 +37,9 @@ Love,
 
 Anh.
 
-<div class="center-image">
+<!-- <div class="center-image">
 <img data-src="../../assets/images/ngam/cat_doantion.webp" alt="Ủng hộ Anh hàng xóm" title="Ủng hộ tôi" class="blur-up lazyload img-thumb lazyimg ten-lop-ban-tu-dat" id="image-hover"/>
-</div>
+</div> -->
 
 <style>
 .center-image{display:grid;justify-items:center}
