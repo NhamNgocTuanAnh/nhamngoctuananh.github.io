@@ -14,7 +14,7 @@ on:
     # TODO: Update the filepath below to be the filepath to the live /
     # production / rendered sitemap.xml in your GitHub repo:
     paths:
-      - /nhamngoctuananh.github.io/sitemap.xml
+      - /anhhangxomfoto.github.io/sitemap.xml
 
   # This allows you to run this workflow manually from the Actions tab in your
   # GitHub repo:
@@ -40,4 +40,4 @@ jobs:
         # For example, if your sitemap is at https://www.example.com/sitemap.xml
         # the final command run would be:
         # `curl http://www.google.com/ping?sitemap=https://www.example.com/sitemap.xml`
-        run: curl http://www.google.com/ping?sitemap=https://nhamngoctuananh.github.io/sitemap.xml
+        run: curl http://www.google.com/ping?sitemap=https://anhhangxomfoto.github.io/sitemap.xml

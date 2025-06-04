@@ -3,7 +3,7 @@
     {% if site.lazyimages == "enabled" %}
     <div id="idFeaturedImage"></div>
     {% else %}
-    <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title | default: nhamngoctuananh.github.io' }}">
+    <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title | default: anhhangxomfoto.github.io' }}">
     {% endif %}
 </div>
 {% endif %}
@@ -32,7 +32,7 @@ window.addEventListener("load", function() {
         if (originalImage && originalImage.hasAttribute("alt")) {
             img.setAttribute("alt", originalImage.getAttribute("alt"));
         }else{
-            img.setAttribute("alt", "nhamngoctuananh.github.io");
+            img.setAttribute("alt", "anhhangxomfoto.github.io");
         }
 
         img.onload = function() {
