@@ -12,13 +12,23 @@ title: Trang chủ
   </button>
 </div>
 <script>
-  // Hiển thị popup một lần mỗi lần refresh
-  window.addEventListener('load', () => {
-    if (!sessionStorage.getItem('popupShown')) {
-      document.getElementById('popup').style.display = 'block';
-      sessionStorage.setItem('popupShown', 'true');
+window.addEventListener('load', () => {
+  console.log('Window loaded. Checking for popup...'); // Dòng này để biết sự kiện 'load' đã kích hoạt
+  console.log('sessionStorage popupShown:', sessionStorage.getItem('popupShown')); // Xem giá trị của sessionStorage
+  if (!sessionStorage.getItem('popupShown')) {
+    var popupElement = document.getElementById('popup');
+    console.log('Popup element:', popupElement); // Xem phần tử popup có được tìm thấy không
+    if (popupElement) { // Kiểm tra xem phần tử có tồn tại không trước khi thay đổi style
+      popupElement.style.display = 'block';
+      sessionStorage.setItem('popupShown', 'true');
+      console.log('Popup shown and sessionStorage set.');
+    } else {
+      console.error('Popup element with ID "popup" not found!');
     }
-  });
+  } else {
+    console.log('Popup already shown this session.');
+  }
+});
 </script>
 <h2 id="h2-moi-nhat" class="mb-4 h2-animation">Bài viết mới nhất</h2>
 <div class="blog-grid-container">
