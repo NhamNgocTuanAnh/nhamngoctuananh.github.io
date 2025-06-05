@@ -19,6 +19,7 @@
 <script>function handleImageLoad(e){e.classList.add("loaded");};</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZMMC73KL"></script>
 <script>
+    window.addEventListener("load",function(){var o=window.location.origin+window.location.pathname+window.location.search,t="reloadData__"+encodeURIComponent(o),o=Date.now();let a;try{a=JSON.parse(localStorage.getItem(t))}catch(o){a=null}(!a||432e6<o-a.timestamp)&&(localStorage.setItem(t,JSON.stringify({timestamp:o})),location.reload())});
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
