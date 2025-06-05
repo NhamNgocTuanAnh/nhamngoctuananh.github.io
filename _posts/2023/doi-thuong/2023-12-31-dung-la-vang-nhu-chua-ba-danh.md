@@ -26,7 +26,7 @@ keywords:
   - chùa Bà Đanh thu hút khách du lịch
   - Chùa Bà Đanh
   - Di tích lịch sử cấp quốc gia
-date: 2023-12-31 12:31:12 +0700
+date: 2024-12-31 12:31:12 +0700
 pinned: true
 ---
 

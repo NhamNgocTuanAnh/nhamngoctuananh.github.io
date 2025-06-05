@@ -15,7 +15,8 @@ permalink: /:title/
 email: tuananhtlu9366@gmail.com
 disqus: 'anhhangxom'
 mailchimp-list: ''
-
+sitemap:
+  exclude: 'yes'
 # Authors
 authors:
   sal:
