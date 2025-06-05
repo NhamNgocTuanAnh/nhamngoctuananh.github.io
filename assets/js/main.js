@@ -1,4 +1,4 @@
-window.addEventListener("load",function(){var a=window.location.origin+window.location.pathname+window.location.search,o="pageReloadData",t=Date.now(),e=JSON.parse(localStorage.getItem(o));(!e||e.url!==a||432e6<t-e.timestamp)&&(localStorage.setItem(o,JSON.stringify({url:a,timestamp:t})),location.reload())});
+window.addEventListener("load",function(){var o=window.location.origin+window.location.pathname+window.location.search,t="reloadData__"+encodeURIComponent(o),o=Date.now();let a;try{a=JSON.parse(localStorage.getItem(t))}catch(o){a=null}(!a||432e6<o-a.timestamp)&&(localStorage.setItem(t,JSON.stringify({timestamp:o})),location.reload())});
 
 window.addEventListener("load", function () { var a = window.location.origin + window.location.pathname + window.location.search, o = "pageReloadData", t = Date.now(), e = JSON.parse(localStorage.getItem(o)); (!e || e.url !== a || 432e6 < t - e.timestamp) && (localStorage.setItem(o, JSON.stringify({ url: a, timestamp: t })), location.reload()) });
 const links = document.querySelectorAll("a"); function showLoading() {
