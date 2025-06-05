@@ -28,13 +28,7 @@
 <style>
   iframe{margin:auto;display:block}.video-container{position:relative;padding-bottom:56.25%}.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%}.video{aspect-ratio:16/9;width:100%}
   </style>
-<script>
-document.addEventListener('DOMContentLoaded',function(){const currentMonth=new Date().getMonth()+1;const addLink=(href)=>{const link=document.createElement('link');link.rel='stylesheet';link.href=href;document.head.appendChild(link)};switch(currentMonth){case 11:case 12:addLink('{{ site.baseurl }}/assets/css/snow.css');const script=document.createElement('script');script.src='{{ site.baseurl }}/assets/js/snowflakes.js';script.async=!0;document.body.appendChild(script);break;case 9:case 10:addLink('{{ site.baseurl }}/assets/css/trungthu.css');const midAutumnMessage=document.getElementById("mid-autumn-message");if(midAutumnMessage)midAutumnMessage.style.display="block";break;case 1:case 2:addLink('/assets/css/tet.css');createSnowfallEffect();break}})
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-T53P5GTK');</script>
+
 </head>
 
 
@@ -166,3 +160,98 @@ if(isIE||isNS6){snowFall();if(hideSnowTime>0){setTimeout(hideSnow,hideSnowTime*1
 <noscript><div><img src="https://mc.yandex.ru/watch/99783189" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // --- Biến và Hằng số ---
+    const currentDate = new Date();
+    const currentMonth = currentDate.getMonth() + 1; // Tháng từ 1 (Tháng 1) đến 12 (Tháng 12)
+
+    // Giả sử 'siteBaseUrl' được định nghĩa toàn cục hoặc được truyền vào từ Jekyll/Liquid
+    // Nếu không, bạn cần đảm bảo biến này có giá trị đúng.
+    // Ví dụ: const siteBaseUrl = "{{ site.baseurl }}" || ""; // Cần được xử lý bởi Jekyll
+    // Để code JavaScript thuần túy chạy được, bạn có thể cần một cách khác để lấy base URL này.
+    // Dưới đây, chúng ta sẽ giả định nó đã được xử lý và là một chuỗi.
+    const siteBaseUrl = "{{ site.baseurl }}"; // Giữ nguyên nếu Jekyll xử lý
+
+    // --- Hàm Trợ Giúp ---
+    /**
+     * Thêm một file CSS vào <head>.
+     * @param {string} href Đường dẫn đến file CSS.
+     */
+    const addCss = (href) => {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        document.head.appendChild(link);
+    };
+
+    /**
+     * Thêm một file JavaScript vào tài liệu.
+     * @param {string} src Đường dẫn đến file JS.
+     * @param {boolean} async Tải bất đồng bộ hay không (mặc định là true).
+     * @param {'head'|'body'} placement Nơi chèn script ('head' hoặc 'body', mặc định là 'body').
+     */
+    const addJs = (src, async = true, placement = 'body') => {
+        const script = document.createElement('script');
+        script.src = src;
+        script.async = async;
+        if (placement === 'head') {
+            document.head.appendChild(script);
+        } else {
+            document.body.appendChild(script);
+        }
+    };
+
+    // --- Logic theo mùa ---
+    // Sử dụng hằng số cho các tháng để dễ đọc hơn (tùy chọn)
+    const JANUARY = 1, FEBRUARY = 2, SEPTEMBER = 9, OCTOBER = 10, NOVEMBER = 11, DECEMBER = 12;
+
+    switch (currentMonth) {
+        case NOVEMBER:
+        case DECEMBER:
+            console.log('Loading Christmas/Winter effects...');
+            addCss(`${siteBaseUrl}/assets/css/snow.css`);
+            addJs(`${siteBaseUrl}/assets/js/snowflakes.js`, true, 'body');
+            break;
+
+        case SEPTEMBER:
+        case OCTOBER:
+            console.log('Loading Mid-Autumn effects...');
+            addCss(`${siteBaseUrl}/assets/css/trungthu.css`);
+            const midAutumnMessage = document.getElementById("mid-autumn-message");
+            if (midAutumnMessage) {
+                midAutumnMessage.style.display = "block";
+            } else {
+                console.warn('Element with ID "mid-autumn-message" not found.');
+            }
+            break;
+
+        case JANUARY:
+        case FEBRUARY:
+            console.log('Loading Tet effects...');
+            // Giả sử `tet.css` cũng nên dùng siteBaseUrl cho nhất quán
+            addCss(`${siteBaseUrl}/assets/css/tet.css`);
+
+            // Kiểm tra xem hàm `createSnowfallEffect` có tồn tại không trước khi gọi
+            if (typeof createSnowfallEffect === 'function') {
+                createSnowfallEffect();
+            } else {
+                // Nếu hàm này được định nghĩa trong một file JS riêng, bạn cần tải file đó trước
+                // Ví dụ: addJs(`${siteBaseUrl}/assets/js/tet-effects.js`, true, 'body');
+                // Và sau đó, hàm createSnowfallEffect có thể được gọi an toàn hơn,
+                // có thể là trong callback của việc tải script đó hoặc đảm bảo nó được tải đồng bộ hơn.
+                console.warn('Function "createSnowfallEffect" is not defined. Tet snowfall effect might not work.');
+                // Cân nhắc tải một script chứa hàm này, ví dụ:
+                // addJs(`${siteBaseUrl}/assets/js/tetSnowEffect.js`, true, 'body');
+            }
+            break;
+
+        default:
+            // Không có hiệu ứng đặc biệt cho các tháng khác
+            break;
+    }
+});(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T53P5GTK');</script>
