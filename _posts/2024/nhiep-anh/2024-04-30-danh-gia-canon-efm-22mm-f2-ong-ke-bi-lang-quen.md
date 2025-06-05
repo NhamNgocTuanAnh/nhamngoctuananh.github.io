@@ -18,7 +18,7 @@ keywords:
   - LensCanon
   - CanonLens
   - canon efm 22mm f2
-date: 2024-04-30 04:30:10 +0700
+date: 2025-04-30 04:30:10 +0700
 permalink: nhiep-anh/reviews/danh-gia-canon-ef-m-22mm-f2-ong-ke-bi-lang-quen
 ---
 

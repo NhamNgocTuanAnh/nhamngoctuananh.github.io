@@ -18,7 +18,7 @@ keywords:
   - chụp ảnh phong cảnh
   - chụp ảnh chân dung
   - điểm mạnh điểm yếu
-date: 2024-07-20 10:01:10 +0700
+date: 2025-02-20 10:01:10 +0700
 permalink: reviews/Sony-RX100-Mark-III-danh-gia-chi-tiet-sau-hon-10-nam-ra-mat
 skip_toc: true
 ---
