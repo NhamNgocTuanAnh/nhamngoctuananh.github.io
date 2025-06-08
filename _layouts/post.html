@@ -109,22 +109,5 @@ function sendAnalyticsEvent(e){"function"==typeof ga&&ga("send","event","read-ne
 </style>
 
 <script>
-function startBlinking() {
-  const content = document.getElementById('content');
-  content.classList.add('blinking-border');
-}
-
-function stopBlinking() {
-  const content = document.getElementById('content');
-  content.classList.remove('blinking-border');
-}
-
-window.addEventListener('load', () => {
-  startBlinking();
-
-  const trigger = document.querySelector('label.read-more-trigger_closed');
-  if (trigger) {
-    trigger.addEventListener('click', stopBlinking);
-  }
-});
+function startBlinking(){let e=document.getElementById("content");e.classList.add("blinking-border")}function stopBlinking(){let e=document.getElementById("content");e.classList.remove("blinking-border")}window.addEventListener("load",()=>{startBlinking();let e=document.querySelector("label.read-more-trigger_closed");e&&e.addEventListener("click",stopBlinking)});
 </script>
