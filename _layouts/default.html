@@ -19,7 +19,7 @@
 <script>function handleImageLoad(e){e.classList.add("loaded");};</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZMMC73KL"></script>
 <script>
-    window.addEventListener("load",function(){var o=window.location.origin+window.location.pathname+window.location.search,t="reloadData__"+encodeURIComponent(o),o=Date.now();let a;try{a=JSON.parse(localStorage.getItem(t))}catch(o){a=null}(!a||432e6<o-a.timestamp)&&(localStorage.setItem(t,JSON.stringify({timestamp:o})),location.reload())});
+window.addEventListener("load",function(){window.scrollTo({top:0,behavior:"smooth"});var t="reloadData__"+encodeURIComponent(window.location.origin+window.location.pathname+window.location.search),a=Date.now();let o;try{o=JSON.parse(localStorage.getItem(t))}catch(e){o=null}(!o||a-o.timestamp>432e6)&&(localStorage.setItem(t,JSON.stringify({timestamp:a})),location.reload())});
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -162,6 +162,16 @@ if(isIE||isNS6){snowFall();if(hideSnowTime>0){setTimeout(hideSnow,hideSnowTime*1
 <!-- /Yandex.Metrika counter -->
 
 <script>
+    function hideTetDivs() {
+  const classesToHide = ['tet_left', 'tet_right', 'tet_bottom'];
+
+  classesToHide.forEach(className => {
+    const elements = document.querySelectorAll(`div.${className}`);
+    elements.forEach(el => {
+      el.style.display = 'none';
+    });
+  });
+}
 document.addEventListener('DOMContentLoaded', function() {
     // --- Biến và Hằng số ---
     const currentDate = new Date();
@@ -209,14 +219,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     switch (currentMonth) {
         case NOVEMBER:
+            hideTetDivs();
         case DECEMBER:
+            hideTetDivs();
             console.log('Loading Christmas/Winter effects...');
             addCss(`${siteBaseUrl}/assets/css/snow.css`);
             addJs(`${siteBaseUrl}/assets/js/snowflakes.js`, true, 'body');
             break;
 
         case SEPTEMBER:
+            hideTetDivs();
         case OCTOBER:
+            hideTetDivs();
             console.log('Loading Mid-Autumn effects...');
             addCss(`${siteBaseUrl}/assets/css/trungthu.css`);
             const midAutumnMessage = document.getElementById("mid-autumn-message");
@@ -228,6 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
             break;
 
         case JANUARY:
+            hideTetDivs();
         case FEBRUARY:
             console.log('Loading Tet effects...');
             // Giả sử `tet.css` cũng nên dùng siteBaseUrl cho nhất quán
@@ -248,6 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
             break;
 
         default:
+            hideTetDivs();
             // Không có hiệu ứng đặc biệt cho các tháng khác
             break;
     }

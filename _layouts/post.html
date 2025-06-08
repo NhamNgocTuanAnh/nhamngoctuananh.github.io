@@ -94,5 +94,37 @@ function sendAnalyticsEvent(e){"function"==typeof ga&&ga("send","event","read-ne
 <div class="rating mt-4 mb-4 d-flex align-items-center">
   <span id="busuanzi_container_page_pv">Trang web của bạn đã được xem: <span id="busuanzi_value_page_pv"></span> lần</span>
 </div>
+<style>
+@keyframes blink-border {
+  0%   { border-color: red; }
+  50%  { border-color: yellow; }
+  100% { border-color: red; }
+}
 
+.blinking-border {
+  animation: blink-border 1s infinite;
+  border: 2px solid red;
+  padding: 10px;
+}
+</style>
 
+<script>
+function startBlinking() {
+  const content = document.getElementById('content');
+  content.classList.add('blinking-border');
+}
+
+function stopBlinking() {
+  const content = document.getElementById('content');
+  content.classList.remove('blinking-border');
+}
+
+window.addEventListener('load', () => {
+  startBlinking();
+
+  const trigger = document.querySelector('label.read-more-trigger_closed');
+  if (trigger) {
+    trigger.addEventListener('click', stopBlinking);
+  }
+});
+</script>
