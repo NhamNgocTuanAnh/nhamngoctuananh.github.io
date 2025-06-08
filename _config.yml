@@ -51,13 +51,7 @@ plugins:
   - jekyll-archives
   - jekyll-figure
   - jekyll-toc
-  - jekyll-sitemap
 
-collections_dir: my_collections
-
-collections:
-  books:
-    output: true
 
 toc:
   min_level: 1

@@ -19,18 +19,18 @@ sitemap:
       {% if post.sitemap.changefreq %}
         <changefreq>{{ post.sitemap.changefreq }}</changefreq>
       {% else %}
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
       {% endif %}
       {% if post.sitemap.priority %}
         <priority>{{ post.sitemap.priority }}</priority>
       {% else %}
         <priority>0.5</priority>
-      {%- endif -%}
+      {% endif %}
     </url>
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" or page.url contains "assets" %}
+    {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
@@ -43,12 +43,12 @@ sitemap:
       {% if page.sitemap.changefreq %}
         <changefreq>{{ page.sitemap.changefreq }}</changefreq>
       {% else %}
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
       {% endif %}
       {% if page.sitemap.priority %}
         <priority>{{ page.sitemap.priority }}</priority>
       {% else %}
-        <priority>0.5</priority>
+        <priority>0.3</priority>
       {% endif %}
     </url>
     {% endunless %}
