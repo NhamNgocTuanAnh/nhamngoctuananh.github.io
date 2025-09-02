@@ -15,3 +15,17 @@ function createRandomDivAndAppend(){let e=document.getElementById("searchBoxEl")
     width: 33%;
     float: right;
   `,l.appendChild(d),a.appendChild(l),a.appendChild(i),a.appendChild(document.createElement("br")),a.appendChild(document.createElement("br"));let n=.5>Math.random()?t:a;e.appendChild(n)}else console.log("Kh\xf4ng c\xf3 searchBoxEl")}createRandomDivAndAppend();
+.tet_left, .tet_right, .tet_bottom {
+  display: none;
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+.visible-after-load {
+  display: block;
+  opacity: 1;
+}
+.tet_left img, .tet_right img, .tet_bottom img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

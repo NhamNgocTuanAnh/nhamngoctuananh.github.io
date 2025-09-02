@@ -140,3 +140,7 @@ dx[i]+=stx[i];const snowDot=document.getElementById('dot'+i);snowDot.style.top=y
 requestAnimationFrame(snowFall)}
 function hideSnow(){for(let i=0;i<no;i++){document.getElementById('dot'+i).style.visibility='hidden'}}
 if(isIE||isNS6){snowFall();if(hideSnowTime>0){setTimeout(hideSnow,hideSnowTime*1000)}}}
+window.addEventListener('load', function () {
+  const tetEls = document.querySelectorAll('.tet_left, .tet_right, .tet_bottom');
+  tetEls.forEach(el => el.classList.add('visible-after-load'));
+});
