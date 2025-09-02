@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Ví dụ: const siteBaseUrl = "{{ site.baseurl }}" || ""; // Cần được xử lý bởi Jekyll
     // Để code JavaScript thuần túy chạy được, bạn có thể cần một cách khác để lấy base URL này.
     // Dưới đây, chúng ta sẽ giả định nó đã được xử lý và là một chuỗi.
-    const siteBaseUrl = "{{ site.baseurl }}"; // Giữ nguyên nếu Jekyll xử lý
+    const siteBaseUrl = "https://anhhangxomfoto.github.io"; // Giữ nguyên nếu Jekyll xử lý
 
     // --- Hàm Trợ Giúp ---
     /**
@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
         case DECEMBER:
             hideTetDivs();
             console.log('Loading Christmas/Winter effects...');
-            addCss(`${siteBaseUrl}/assets/css/snow.css`);
-            addJs(`${siteBaseUrl}/assets/js/snowflakes.js`, true, 'body');
+            addCss(`https://anhhangxomfoto.github.io/assets/css/snow.css`);
+            addJs(`https://anhhangxomfoto.github.io/assets/js/snowflakes.js`, true, 'body');
             break;
 
         case SEPTEMBER:
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         case OCTOBER:
             hideTetDivs();
             console.log('Loading Mid-Autumn effects...');
-            addCss(`${siteBaseUrl}/assets/css/trungthu.css`);
+            addCss(`https://anhhangxomfoto.github.io/assets/css/trungthu.css`);
             const midAutumnMessage = document.getElementById("mid-autumn-message");
             if (midAutumnMessage) {
                 midAutumnMessage.style.display = "block";
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         case FEBRUARY:
             console.log('Loading Tet effects...');
             // Giả sử `tet.css` cũng nên dùng siteBaseUrl cho nhất quán
-            addCss(`${siteBaseUrl}/assets/css/tet.css`);
+            addCss(`https://anhhangxomfoto.github.io/assets/css/tet.css`);
 
             // Kiểm tra xem hàm `createSnowfallEffect` có tồn tại không trước khi gọi
             if (typeof createSnowfallEffect === 'function') {
