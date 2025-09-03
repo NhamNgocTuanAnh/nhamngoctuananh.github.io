@@ -17,6 +17,14 @@
     <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.webp">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZMMC73KL"></script>
 <script>
+  function handleImageLoad(e){e.classList.add("loaded");};
+  window.addEventListener("load", function() {
+    const imgs = document.querySelectorAll("#mid-autumn-message img");
+    imgs.forEach(img => {
+      img.setAttribute("src", img.getAttribute("data-src"));
+    });
+  });
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());

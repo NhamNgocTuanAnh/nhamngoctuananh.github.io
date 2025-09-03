@@ -175,10 +175,3 @@ function createSnackbar(e){let t=document.createElement("div");t.id="snackbar";l
     let timeOnSite=0;function trackTimeOnSite(){(timeOnSite+=100)>=15e3&&(createSnackbar(randomPost),setTimeout(()=>showSnackbar(),1e3),clearInterval(intervalId))}const intervalId=setInterval(trackTimeOnSite,100);
 });function showSnackbar(){let e=document.getElementById("snackbar");e&&e.classList.add("show")};document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector(".read-more-trigger_closed"),n=document.querySelector(".read-more-trigger_opened");n.style.display="none",e.addEventListener("click",function(){e.style.display="none",n.style.display="inline"}),n.addEventListener("click",function(){n.style.display="none",e.style.display="inline"})});
 window.addEventListener("load",function(){window.scrollTo({top:0,behavior:"smooth"});var t="reloadData__"+encodeURIComponent(window.location.origin+window.location.pathname+window.location.search),a=Date.now();let o;try{o=JSON.parse(localStorage.getItem(t))}catch(e){o=null}(!o||a-o.timestamp>432e6)&&(localStorage.setItem(t,JSON.stringify({timestamp:a})),location.reload())});
-function handleImageLoad(e){e.classList.add("loaded");};
-  window.addEventListener("load", function() {
-    const imgs = document.querySelectorAll("#mid-autumn-message img");
-    imgs.forEach(img => {
-      img.setAttribute("src", img.getAttribute("data-src"));
-    });
-  });
