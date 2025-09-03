@@ -15,19 +15,14 @@
     {% endif %}
     <!-- <link href="/assets/css/main.css" rel="stylesheet"> -->
     <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.webp">
-<script>function handleImageLoad(e){e.classList.add("loaded");};</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZMMC73KL"></script>
 <script>
-window.addEventListener("load",function(){window.scrollTo({top:0,behavior:"smooth"});var t="reloadData__"+encodeURIComponent(window.location.origin+window.location.pathname+window.location.search),a=Date.now();let o;try{o=JSON.parse(localStorage.getItem(t))}catch(e){o=null}(!o||a-o.timestamp>432e6)&&(localStorage.setItem(t,JSON.stringify({timestamp:a})),location.reload())});
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-CGZMMC73KL');
 </script>
-<style>
-  iframe{margin:auto;display:block}.video-container{position:relative;padding-bottom:56.25%}.video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%}.video{aspect-ratio:16/9;width:100%}
-  </style>
 
 </head>
 
@@ -101,9 +96,18 @@ window.addEventListener("load",function(){window.scrollTo({top:0,behavior:"smoot
 
     </script>
 <script src="{{ site.baseurl }}/assets/js/main.js"></script>
-<div id="mid-autumn-message" style="display:none;">
-<a class="codepro-trungthu-right" href="https://www.facebook.com/nntatlu/?locale=vi_VN"><img alt="Trang trí đón trung thu cho blog/website bằng hình ảnh cành hoa, mặt trăng, lồng đèn và rước đèn" src="{{site.baseurl}}/assets/images/trung-thu/mat-trang-long-den-trung-thu.webp"/></a>
-<a class="codepro-trungthu-bottom" href="https://www.facebook.com/nntatlu/?locale=vi_VN"><img alt="Trang trí đón trung thu cho blog/website bằng hình ảnh cành hoa, mặt trăng, lồng đèn và rước đèn" src="{{site.baseurl}}/assets/images/trung-thu/ruoc-den-trung-thu.webp"/></a></div>
+<div id="mid-autumn-message">
+  <a class="codepro-trungthu-right" href="https://www.facebook.com/nntatlu/?locale=vi_VN">
+    <img
+      alt="Trang trí đón trung thu cho blog/website bằng hình ảnh cành hoa, mặt trăng, lồng đèn và rước đèn"
+      data-src="{{site.baseurl}}/assets/images/trung-thu/mat-trang-long-den-trung-thu.webp"/>
+  </a>
+  <a class="codepro-trungthu-bottom" href="https://www.facebook.com/nntatlu/?locale=vi_VN">
+    <img
+      alt="Trang trí đón trung thu cho blog/website bằng hình ảnh cành hoa, mặt trăng, lồng đèn và rước đèn"
+      data-src="{{site.baseurl}}/assets/images/trung-thu/ruoc-den-trung-thu.webp"/>
+  </a>
+</div>
 <script src="https://apis.google.com/js/api.js"></script>
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/lazysizes.min.js" async></script>
