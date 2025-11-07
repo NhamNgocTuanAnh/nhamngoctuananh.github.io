@@ -40,20 +40,22 @@
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-8WQCFPL56N"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<nav class="custom-navbar">
+<nav class="custom-navbar" role="navigation" aria-label="Main navigation">
   <div class="custom-navbar-container custom-container">
-      <input type="checkbox" style="display:none" id="custom-menu-toggle">
-      <div class="custom-hamburger-lines">
-          <span class="custom-line custom-line1"></span>
-          <span class="custom-line custom-line2"></span>
-          <span class="custom-line custom-line3"></span>
-      </div>
-      <ul class="custom-menu-items">
-        <li><a href="{{ site.baseurl }}/categories-v1.html" onclick="switchCategory()">Chủ đề</a></li>
-        <li><a href="{{ site.baseurl }}/about-me">About me</a></li>
-        <li><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; triggerContact()">Contact</a></li>
-      </ul>
-      <h1 class="custom-logo"><a href="{{ site.baseurl }}/" class="brand-link">Anh Hàng Xóm</a></h1>
+    <input type="checkbox" id="custom-menu-toggle" class="custom-menu-toggle" aria-hidden="true" />
+    <label for="custom-menu-toggle" class="custom-hamburger" aria-label="Mở menu" role="button" tabindex="0">
+      <span class="custom-line custom-line1"></span>
+      <span class="custom-line custom-line2"></span>
+      <span class="custom-line custom-line3"></span>
+    </label>
+
+    <ul class="custom-menu-items" id="customMenu">
+      <li><a href="/categories-v1.html" onclick="switchCategory()">Chủ đề</a></li>
+      <li><a href="https://beacons.ai/anhhangxomvisual">About me</a></li>
+      <li><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; triggerContact()">Contact</a></li>
+    </ul>
+
+    <h1 class="custom-logo" aria-hidden="false"><a href="/" class="brand-link">Anh Hàng Xóm</a></h1>
   </div>
 </nav>
 
