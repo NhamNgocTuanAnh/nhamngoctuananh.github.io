@@ -61,3 +61,27 @@ comments: true
   </script>
 </article>
 <script src="{{ site.baseurl }}/assets/js/post.js" async></script>
+ <!-- Comments block (load lazily when the user scrolls near the bottom) -->
+  <div id="comments-wrapper" style="min-height:80px"></div>
+  <script>
+  (function(){
+    var loaded = false;
+    function loadComments(){
+      if(loaded) return; loaded = true;
+      {% if site.disqus_shortname %}
+      var d = document.createElement('script');
+      d.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+      d.setAttribute('data-timestamp', +new Date());
+      d.defer = true;
+      document.getElementById('comments-wrapper').appendChild(d);
+      {% endif %}
+    }
+    // load when near bottom or on user click
+    var observer = new IntersectionObserver(function(entries){
+      if(entries[0].isIntersecting) { loadComments(); observer.disconnect(); }
+    }, {rootMargin: '300px'});
+    observer.observe(document.getElementById('comments-wrapper'));
+    // or user clicks share button to load comment quicker
+    document.getElementById('share') && document.getElementById('share').addEventListener('click', loadComments, {once:true});
+  })();
+  </script>
