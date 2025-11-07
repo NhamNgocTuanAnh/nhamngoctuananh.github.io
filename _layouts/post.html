@@ -5,81 +5,58 @@ post_class: post-template
 comments: true
 ---
 
-<script src="{{ site.baseurl }}/assets/js/post.js" async></script>
-<div class="entry-header" style="display: none;"><br>
-  <h1 class="posttitle"><a style="color:#3a3a3a" href="{{ site.baseurl }}{{ post.url }}" target="_blank">{{ page.title }}</a></h1>
-</div>
+<article class="post" itemscope itemtype="http://schema.org/Article">
+  <header class="entry-header" role="banner" style="margin-bottom:12px">
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    <p class="byline" style="color:#666">{{ page.date | date: "%-d %b %Y" }} — {{ page.author | default: site.author.name }}</p>
+  </header>
 
-<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
-{% if site.url == "enabled" %}
-{% include adsense-under-header.html %}
-{% endif %}
+  <!-- Featured image include (keep, but ensure it uses lazy + srcset) -->
+  {% include featured-image.html %}
 
-<!-- Featured Image -->
-{% include featured-image.html %}
+  <section class="post-content" itemprop="articleBody" id="articlePost">
+    {% include toc.html content=page.content skip_toc=page.skip_toc %}
+    {{ content }}
+  </section>
 
-<!-- Content -->
-{% include toc.html content=page.content skip_toc=page.skip_toc%}
+  <nav class="post-actions" aria-label="Article actions" style="margin-top:20px">
+    <a href="#share" id="share" onclick="openShare()">Share</a>
+  </nav>
 
-<br><input type="checkbox" hidden class="read-more-state" id="read-more">
-  <div class="read-more-wrap">
-    <div class="article-post" id="articlePost">
-      <section id="content">
-        <p>
-          {{ page.excerpt }} . ...
-        </p>
-      </section>
-  </div><div class="read-more-target"><div class="content-container"><div class="content-overlay">
+  <!-- Optional analytics events for read-more: lightweight, not blocking -->
+  <script defer>
+  // Read-more handlers (modern, event delegation)
+  function sendReadEvent(action){
+    if (typeof gtag === 'function') gtag('event', action, { 'event_category': 'engagement', 'event_label': '{{ page.url }}' });
+  }
+  document.addEventListener('click', function(e){
+    if(e.target.matches('.read-more-trigger_closed')) sendReadEvent('read-more');
+    if(e.target.matches('.read-more-trigger_opened')) sendReadEvent('read-less');
+  }, {passive:true});
+  </script>
 
-      {% include article.html %}
-
-      </div></div></div>
-  </div><div class="content" style="text-align:center; "><div class="custom-label-container"><input type="checkbox" id="read-more" style="display: none;" /><label for="read-more" class="read-more-trigger_closed">Đọc tiếp</label><label for="read-more" class="read-more-trigger_opened">Read Less</label></div></div>
-    <script>
-function sendAnalyticsEvent(e){"function"==typeof ga&&ga("send","event","read-new",e,"{{ page.url }}",10)}function handleReadMore(){sendAnalyticsEvent("read-more")}function handleReadLess(){sendAnalyticsEvent("read-less")}window.scrollTo({top:456,behavior:"smooth"}),document.getElementById("read-more").addEventListener("change",function(){this.checked?(console.log("Read More triggered!"),handleReadMore()):(console.log("Read Less triggered!"),handleReadLess())});
-    </script>
-<style>
-.custom-label-container label{display:inline-block;padding:10px 20px;font-size:16px;color:#fff;background-color:#007bff;border:none;border-radius:5px;cursor:pointer;text-align:center;transition:background-color .3s,transform .2s;margin:5px;text-decoration:none}.custom-label-container label:hover{background-color:#0056b3}.custom-label-container label:active{transform:scale(.95)}.custom-label-container .read-more-trigger_opened{background-color:#28a745}.custom-label-container .read-more-trigger_opened:hover{background-color:#218838}.custom-label-container .read-more-trigger_closed,.custom-label-container .read-more-trigger_opened,.read-more-state:checked~.read-more-trigger_closed,.read-more-target,.read-more-trigger_opened{display:none}.custom-label-container #read-more:checked~.read-more-trigger_opened,.custom-label-container #read-more:not(:checked)~.read-more-trigger_closed{display:inline-block}.read-more-state:checked~.read-more-trigger_opened,.read-more-state:checked~.read-more-wrap .read-more-target{display:block}
-</style>
-
-<br>
-
-{% include show-keywords.html %}
-{% include related-posts.html %}
-<!-- Comment -->
-{% include disqus.html %}
-{% include share-bar.html %}
-<!-- Quote -->
-{% include quote.html %}
-<!-- Author Box if enabled from _config.yml -->
-{% include author-box.html %}
-
-<!-- Share -->
-{% include share.html %}
-{% if site.url == page.url %}
-<div id="fb-root"></div>
-{% endif %}
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/toastr.min.css">
-<script src="{{ site.baseurl }}/assets/js/toastr.min.js"></script>
-<!-- <script></script> -->
-
-<div class="rating mt-4 mb-4 d-flex align-items-center">
-  <span id="busuanzi_container_page_pv">Trang web của bạn đã được xem: <span id="busuanzi_value_page_pv"></span> lần</span>
-</div>
-<style>
-@keyframes blink-border {
-  0%   { border-color: red; }
-  50%  { border-color: yellow; }
-  100% { border-color: red; }
-}
-
-.blinking-border {
-  animation: blink-border 1s infinite;
-  border: 2px solid red;
-  padding: 10px;
-}
-</style>
-
-<script>
-function startBlinking(){let e=document.getElementById("content");e.classList.add("blinking-border")}function stopBlinking(){let e=document.getElementById("content");e.classList.remove("blinking-border")}window.addEventListener("load",()=>{startBlinking();let e=document.querySelector("label.read-more-trigger_closed");e&&e.addEventListener("click",stopBlinking)});
-</script>
+  <!-- Comments block (load lazily when the user scrolls near the bottom) -->
+  <div id="comments-wrapper" style="min-height:80px"></div>
+  <script>
+  (function(){
+    var loaded = false;
+    function loadComments(){
+      if(loaded) return; loaded = true;
+      {% if site.disqus_shortname %}
+      var d = document.createElement('script');
+      d.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+      d.setAttribute('data-timestamp', +new Date());
+      d.defer = true;
+      document.getElementById('comments-wrapper').appendChild(d);
+      {% endif %}
+    }
+    // load when near bottom or on user click
+    var observer = new IntersectionObserver(function(entries){
+      if(entries[0].isIntersecting) { loadComments(); observer.disconnect(); }
+    }, {rootMargin: '300px'});
+    observer.observe(document.getElementById('comments-wrapper'));
+    // or user clicks share button to load comment quicker
+    document.getElementById('share') && document.getElementById('share').addEventListener('click', loadComments, {once:true});
+  })();
+  </script>
+</article>

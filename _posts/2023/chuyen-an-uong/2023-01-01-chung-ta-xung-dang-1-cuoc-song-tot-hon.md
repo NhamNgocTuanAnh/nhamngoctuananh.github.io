@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Kết thúc một năm nháp - [Chúng ta xứng đáng có một cuộc sống tốt hơn!]'
+title: 'Kết thúc một năm nháp. Chúng ta xứng đáng có một cuộc sống tốt hơn!'
 author: sal
 lazyimages: "enabled"
 categories: [ Sức khỏe 💪]
