@@ -38,14 +38,7 @@
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body>
-<div class="search-box-wrapper">
-      <div class="search-input-group">
-        <span class="search-icon">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        </span>
-        <input type="text" id="search-input" placeholder="Tìm ảnh, lens, cảm xúc..." autocomplete="off">
-      </div>
-      <ul id="results-container"></ul>
+
 
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 
@@ -121,17 +114,30 @@ document.addEventListener('click', function(e) {
       <span class="custom-line custom-line3"></span>
     </label>
 
-    <ul class="custom-menu-items" id="customMenu">
-      <li><a href="/categories-v1.html" onclick="switchCategory()">Chủ đề</a></li>
-      <li><a href="https://beacons.ai/anhhangxomvisual">About me</a></li>
-      <li><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; triggerContact()">Contact</a></li>
-    </ul>
+<div class="ahx-container">
 
-<a href="/" class="logo-brand">
-      <span class="logo-text">AHX</span>
-      <span class="logo-dot">.</span>
-      <span class="logo-suffix">Visuals</span>
-    </a>
+        <a href="{{ site.baseurl }}/" class="ahx-logo">
+            <span class="ahx-logo-text">AHX</span>
+            <span class="ahx-logo-dot"></span>
+            <span class="ahx-logo-sub">Visuals</span>
+        </a>
+
+        <div class="ahx-search-wrapper">
+            <div class="ahx-search-bar">
+                <span class="ahx-search-icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </span>
+                <input type="text" id="search-input" class="ahx-search-input" placeholder="Tìm kiếm..." autocomplete="off">
+            </div>
+            <ul id="ahx-results"></ul>
+        </div>
+
+        <nav class="ahx-nav">
+            <a href="{{ site.baseurl }}/categories-v1.html" class="ahx-nav-link">Chủ đề</a>
+            <a href="" onclick="switchCategory()" class="ahx-nav-link">Chủ đề</a>
+            <a href="https://beacons.ai/anhhangxomvisual" class="ahx-nav-link">About</a>
+        </nav>
+    </div>
   </div>
 </nav>
 
@@ -209,158 +215,176 @@ document.addEventListener('click', function(e) {
   <div class="tet_bottom"><img src="{{ site.baseurl }}/assets/images/bottom-1.png" alt="AnonyViet-Tet"/></div>
 -->
 
-<style> /* --- CẤU TRÚC HEADER --- */
-.site-header {
-  padding: 20px 40px;
-  background: #fff; /* Hoặc màu nền web của em */
-  border-bottom: 1px solid rgba(0,0,0,0.05); /* Đường viền mờ tinh tế */
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+<style>
+/* Reset riêng cho khu vực này để không bị ảnh hưởng bởi CSS bên ngoài */
+#ahx-isolated-header {
+    all: initial; /* Xóa bỏ mọi thừa kế từ web cũ */
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 999;
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+#ahx-isolated-header * {
+    box-sizing: border-box; /* Đảm bảo padding không làm vỡ khung */
 }
 
-/* --- 1. LOGO STYLING --- */
-.logo-brand {
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 24px;
-  color: #1a1a1a;
-  letter-spacing: -0.5px;
-  display: flex;
-  align-items: baseline;
+.ahx-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
-.logo-text {
-  font-family: 'Playfair Display', serif; /* Gợi ý: Dùng font có chân cho nghệ thuật */
+/* 1. LOGO STYLE */
+.ahx-logo {
+    text-decoration: none !important;
+    display: flex;
+    align-items: baseline;
+    cursor: pointer;
+    border: none;
+    background: transparent;
 }
 
-.logo-dot {
-  color: #ff4d4f; /* Điểm nhấn màu đỏ (như nút quay phim) */
-  font-size: 30px;
-  line-height: 0;
-  margin: 0 2px;
+.ahx-logo-text {
+    font-size: 26px;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: -1px;
 }
 
-.logo-suffix {
-  font-weight: 300;
-  font-size: 14px;
-  color: #888;
-  margin-left: 4px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.ahx-logo-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ff3b30; /* Màu đỏ record */
+    border-radius: 50%;
+    margin: 0 4px;
+    display: inline-block;
 }
 
-/* --- 2. SEARCH BOX STYLING (Algolia Style) --- */
-.search-box-wrapper {
-  position: relative;
-  flex-grow: 1;
-  max-width: 400px; /* Độ rộng tối đa của ô tìm kiếm */
-  margin: 0 40px;
+.ahx-logo-sub {
+    font-size: 13px;
+    color: #888;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
-.search-input-group {
-  display: flex;
-  align-items: center;
-  background: #f5f5f7; /* Màu xám nhẹ kiểu Apple */
-  border-radius: 12px; /* Bo tròn mềm mại */
-  padding: 8px 16px;
-  transition: all 0.3s ease;
-  border: 1px solid transparent;
+/* 2. SEARCH STYLE (Dạng viên thuốc) */
+.ahx-search-wrapper {
+    flex-grow: 1;
+    max-width: 450px;
+    position: relative;
 }
 
-/* Hiệu ứng khi click vào */
-.search-input-group:focus-within {
-  background: #fff;
-  border-color: #ddd;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Đổ bóng nhẹ */
-  transform: translateY(-1px);
+.ahx-search-bar {
+    display: flex;
+    align-items: center;
+    background: #f2f2f4; /* Màu xám nhạt */
+    border-radius: 99px; /* Bo tròn hoàn toàn */
+    padding: 8px 16px;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
 }
 
-.search-icon {
-  color: #999;
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
+.ahx-search-bar:focus-within {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-color: #e0e0e0;
 }
 
-#search-input {
-  border: none;
-  background: transparent;
-  width: 100%;
-  font-size: 15px;
-  color: #333;
-  outline: none;
+.ahx-search-icon {
+    color: #999;
+    margin-right: 10px;
+    display: flex;
 }
 
-#search-input::placeholder {
-  color: #bbb;
+.ahx-search-input {
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+    font-size: 15px;
+    width: 100%;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    height: auto;
 }
 
-/* Kết quả tìm kiếm (Dropdown) */
-#results-container {
-  position: absolute;
-  top: 120%;
-  left: 0;
-  right: 0;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  z-index: 100;
-  overflow: hidden;
-  display: empty; /* Ẩn khi không có nội dung */
+/* 3. MENU STYLE */
+.ahx-nav {
+    display: flex;
+    gap: 25px;
 }
 
-#results-container li a {
-  display: block;
-  padding: 12px 20px;
-  text-decoration: none;
-  color: #333;
-  border-bottom: 1px solid #f0f0f0;
-  transition: background 0.2s;
+.ahx-nav-link {
+    text-decoration: none !important;
+    color: #555 !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.2s;
 }
 
-#results-container li a:hover {
-  background: #f9f9f9;
-  padding-left: 25px; /* Hiệu ứng trượt nhẹ khi hover */
+.ahx-nav-link:hover {
+    color: #000 !important;
 }
 
-/* --- 3. NAV MENU --- */
-.site-nav a {
-  text-decoration: none;
-  color: #555;
-  margin-left: 25px;
-  font-size: 15px;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.3s;
+.ahx-nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #ff3b30;
+    transition: width 0.3s ease;
 }
 
-.site-nav a:hover {
-  color: #000;
+.ahx-nav-link:hover::after {
+    width: 100%;
 }
 
-/* Hiệu ứng gạch chân khi hover */
-.site-nav a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -4px;
-  left: 0;
-  background-color: #ff4d4f;
-  transition: width 0.3s;
+/* 4. DROPDOWN KẾT QUẢ (Sạch sẽ) */
+#ahx-results {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: none; /* Ẩn mặc định */
+    overflow: hidden;
+    z-index: 1000;
+    border: 1px solid #eee;
 }
 
-.site-nav a:hover::after {
-  width: 100%;
+#ahx-results li {
+    margin: 0 !important;
+}
+
+#ahx-results a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none !important;
+    color: #333 !important;
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 14px;
+}
+
+#ahx-results a:hover {
+    background-color: #f9f9f9;
 }
 </style>
