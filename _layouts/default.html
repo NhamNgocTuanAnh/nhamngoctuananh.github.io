@@ -38,6 +38,73 @@
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body>
+  <div class="search-wrapper" style="position: relative;">
+    <input type="text" id="search-input" placeholder="Tìm ảnh, lens, kỹ thuật..." style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+    <ul id="results-container" style="list-style: none; padding: 0; margin-top: 10px; position: absolute; background: white; width: 100%; z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
+<script>
+let fuse;
+const resultsList = document.getElementById('results-container');
+const searchInput = document.getElementById('search-input');
+
+// --- SỬA Ở ĐÂY: Thêm {{ site.baseurl }} ---
+// Jekyll sẽ điền đúng đường dẫn vào trước /search.json
+fetch('{{ site.baseurl }}/assets/js/search.json')
+  .then(response => {
+    // Kiểm tra xem có tìm thấy file không
+    if (!response.ok) {
+        throw new Error("Không tải được file search.json");
+    }
+    return response.json();
+  })
+  .then(data => {
+    const options = {
+      includeScore: true,
+      threshold: 0.4,
+      keys: ['title', 'tags', 'category']
+    };
+    fuse = new Fuse(data, options);
+  })
+  .catch(error => console.error('Lỗi search:', error));
+
+searchInput.addEventListener('input', (e) => {
+  resultsList.innerHTML = '';
+  const term = e.target.value;
+
+  if (term.length > 0 && fuse) {
+    const results = fuse.search(term);
+
+    if (results.length === 0) {
+        resultsList.innerHTML = '<li style="padding: 10px; color: #999;">Không tìm thấy kết quả nào.</li>';
+    } else {
+        results.slice(0, 5).forEach(result => {
+          const item = result.item;
+          // item.url trong file json đã có baseurl rồi (theo code ở bước trước), nên ở đây không cần thêm nữa
+          const li = document.createElement('li');
+          li.innerHTML = `<a href="${item.url}" style="display:block; padding: 10px; border-bottom: 1px solid #eee; text-decoration: none; color: #333;">
+                            <strong style="color: #000;">${item.title}</strong> <br>
+                            <small style="color: #666;">${item.date} — ${item.tags}</small>
+                          </a>`;
+          // Hiệu ứng hover nhẹ (optional - thêm bằng JS cho gọn)
+          li.addEventListener('mouseenter', () => li.style.background = '#f9f9f9');
+          li.addEventListener('mouseleave', () => li.style.background = 'white');
+
+          resultsList.appendChild(li);
+        });
+    }
+  }
+});
+
+// Ẩn kết quả khi click ra ngoài (UX cải tiến)
+document.addEventListener('click', function(e) {
+    if (!searchInput.contains(e.target) && !resultsList.contains(e.target)) {
+        resultsList.innerHTML = '';
+    }
+});
+</script>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-8WQCFPL56N"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
