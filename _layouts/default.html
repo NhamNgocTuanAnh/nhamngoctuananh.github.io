@@ -558,7 +558,7 @@ function closeRandomPopup() {
     #back-to-top {
         display: none; /* Mặc định ẩn */
         position: fixed;
-        bottom: 30px;
+        bottom: 130px;
         right: 30px; /* Góc phải dưới */
         z-index: 99; /* Nằm dưới ô Search (z-index 9999) nhưng trên nội dung */
 
@@ -622,4 +622,46 @@ function scrollToTop() {
         behavior: "smooth" // Cuộn mượt mà
     });
 }
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const chatBtn = document.getElementById('chat-button');
+    let isClicked = false; // Cái chốt an toàn: Đảm bảo chỉ click 1 lần duy nhất
+
+    // Hàm thực hiện hành động Click
+    function triggerChatClick() {
+        if (isClicked) return; // Nếu đã click rồi thì dừng ngay, không làm phiền
+
+        if (chatBtn) {
+            chatBtn.click(); // Giả lập hành động bấm chuột của người dùng
+            isClicked = true; // Đánh dấu là đã xong nhiệm vụ
+
+            // (Tuỳ chọn) Gỡ bỏ sự kiện cuộn để nhẹ trình duyệt
+            window.removeEventListener('scroll', checkScroll);
+            console.log("An Nhiên: Đã tự động kích hoạt nút Chat.");
+        }
+    }
+
+    // 1. ĐIỀU KIỆN THỜI GIAN: 30 Giây (30000ms)
+    setTimeout(triggerChatClick, 30000);
+
+
+    // 2. ĐIỀU KIỆN VỊ TRÍ: Cuộn gần tới đáy
+    function checkScroll() {
+        if (isClicked) return; // Tối ưu hiệu năng
+
+        // Tính toán vị trí:
+        // (Vị trí hiện tại + Chiều cao màn hình) so với (Tổng chiều cao trang web)
+        const scrollPosition = window.scrollY + window.innerHeight;
+        const totalHeight = document.documentElement.scrollHeight;
+        const threshold = 100; // Khoảng cách 100px cách đáy trang
+
+        if (totalHeight - scrollPosition <= threshold) {
+            triggerChatClick();
+        }
+    }
+
+    // Gắn "tai mắt" để lắng nghe hành động cuộn
+    window.addEventListener('scroll', checkScroll);
+});
 </script>
