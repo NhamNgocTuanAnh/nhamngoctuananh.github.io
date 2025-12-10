@@ -1,10 +1,14 @@
-const options = {
-  includeScore: true,
-  threshold: 0.3, // Độ "dễ tính" của thuật toán (0.0 là chính xác tuyệt đối, 0.6 là rất lỏng)
-  keys: [
-    { name: 'title', weight: 0.7 }, // Ưu tiên tiêu đề
-    { name: 'tags', weight: 0.2 },
-    { name: 'content', weight: 0.1 }
-  ]
-};
-// Fuse sẽ xử lý file search.json của em dựa trên options này
+---
+layout: null
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : {{ post.title | jsonify }},
+      "category" : {{ post.category | jsonify }},
+      "tags"     : {{ post.tags | join: ', ' | jsonify }},
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date | date: '%d/%m/%Y' }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
