@@ -481,51 +481,66 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 
-    // CẤU HÌNH: Thời gian chờ giữa 2 lần hiện (tính bằng Giờ)
     const HOURS_TO_WAIT = 24;
-
-    // Key để lưu trong bộ nhớ trình duyệt
     const STORAGE_KEY = 'last_random_popup_time';
+    let isPopupShown = false; // Cờ hiệu để đảm bảo chỉ hiện 1 lần/lượt tải trang
 
+    // 1. Kiểm tra thời gian (Đã qua 24h chưa?)
     function shouldShowPopup() {
         const lastShown = localStorage.getItem(STORAGE_KEY);
-        if (!lastShown) return true; // Chưa hiện bao giờ -> Hiện luôn
-
+        if (!lastShown) return true;
         const now = new Date().getTime();
-        const diffHours = (now - lastShown) / (1000 * 60 * 60);
-
-        return diffHours >= HOURS_TO_WAIT;
+        return ((now - lastShown) / (1000 * 60 * 60)) >= HOURS_TO_WAIT;
     }
 
-    if (shouldShowPopup()) {
-        // Tái sử dụng file search.json (Đỡ tốn tài nguyên tải file mới)
-        fetch('{{ site.baseurl }}/assets/js/search.json')
+    // 2. Hàm lấy và hiện bài viết
+    function fetchAndShowPost() {
+        if (isPopupShown) return; // Nếu đã hiện rồi thì thôi
+
+        fetch('{{ site.baseurl }}/search.json')
             .then(response => response.json())
             .then(data => {
-                // Lọc bỏ bài hiện tại (nếu đang ở trang bài viết)
                 const currentUrl = window.location.pathname;
                 const availablePosts = data.filter(post => !post.url.includes(currentUrl));
 
                 if (availablePosts.length > 0) {
-                    // --- THUẬT TOÁN NGẪU NHIÊN ---
                     const randomIndex = Math.floor(Math.random() * availablePosts.length);
                     const randomPost = availablePosts[randomIndex];
 
-                    // Điền dữ liệu vào Popup
                     document.getElementById('random-post-title').textContent = randomPost.title;
                     document.getElementById('random-post-date').textContent = randomPost.date;
                     document.getElementById('random-post-link').href = randomPost.url;
 
-                    // Hiện Popup sau 3 giây (để khách đọc tiêu đề trang chính đã)
-                    setTimeout(() => {
-                        document.getElementById('random-post-modal').style.display = 'block';
+                    // Hiện Popup
+                    document.getElementById('random-post-modal').style.display = 'block';
 
-                        // Ghi lại thời gian đã hiện
-                        localStorage.setItem(STORAGE_KEY, new Date().getTime());
-                    }, 3000);
+                    // Ghi nhớ và đánh dấu đã xong
+                    localStorage.setItem(STORAGE_KEY, new Date().getTime());
+                    isPopupShown = true;
+
+                    // Gỡ bỏ sự kiện cuộn để nhẹ trình duyệt
+                    window.removeEventListener('scroll', handleScroll);
                 }
             })
             .catch(err => console.error('Lỗi random post:', err));
+    }
+
+    // 3. Xử lý sự kiện cuộn (Logic mới)
+    function handleScroll() {
+        if (!shouldShowPopup() || isPopupShown) return;
+
+        // Tính toán: Vị trí hiện tại + Chiều cao màn hình >= 70% Chiều cao toàn trang
+        const scrollPosition = window.innerHeight + window.scrollY;
+        const threshold = document.body.offsetHeight * 0.7;
+
+        if (scrollPosition >= threshold) {
+            fetchAndShowPost();
+        }
+    }
+
+    // Chỉ bắt đầu lắng nghe sự kiện cuộn nếu đủ điều kiện thời gian
+    if (shouldShowPopup()) {
+        window.addEventListener('scroll', handleScroll);
     }
 });
 
