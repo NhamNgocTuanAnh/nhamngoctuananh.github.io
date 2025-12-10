@@ -38,68 +38,97 @@
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
 <body>
-
-
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 
 <script>
-let fuse;
-const resultsList = document.getElementById('results-container');
-const searchInput = document.getElementById('search-input');
+document.addEventListener('DOMContentLoaded', function() {
+    // --- CẤU HÌNH & KHỞI TẠO ---
+    const searchInput = document.getElementById('search-input'); // Ô nhập liệu
+    const resultsContainer = document.getElementById('ahx-results'); // Khung kết quả mới
+    let fuse; // Biến lưu trữ bộ máy tìm kiếm
 
-// --- SỬA Ở ĐÂY: Thêm {{ site.baseurl }} ---
-// Jekyll sẽ điền đúng đường dẫn vào trước /search.json
-fetch('{{ site.baseurl }}/assets/js/search.json')
-  .then(response => {
-    // Kiểm tra xem có tìm thấy file không
-    if (!response.ok) {
-        throw new Error("Không tải được file search.json");
-    }
-    return response.json();
-  })
-  .then(data => {
-    const options = {
-      includeScore: true,
-      threshold: 0.4,
-      keys: ['title', 'tags', 'category']
-    };
-    fuse = new Fuse(data, options);
-  })
-  .catch(error => console.error('Lỗi search:', error));
+    // --- TẢI DỮ LIỆU TỪ SEARCH.JSON ---
+    fetch('{{ site.baseurl }}/search.json')
+        .then(response => {
+            if (!response.ok) throw new Error("Không tìm thấy file dữ liệu.");
+            return response.json();
+        })
+        .then(data => {
+            // Cài đặt độ thông minh của thuật toán
+            fuse = new Fuse(data, {
+                includeScore: true,
+                threshold: 0.4, // Độ chấp nhận sai sót (0.0 - 1.0)
+                keys: ['title', 'tags', 'category'] // Các trường thông tin cần tìm
+            });
+            console.log("Dữ liệu tìm kiếm đã sẵn sàng."); // Log kiểm tra
+        })
+        .catch(err => console.error("Lỗi tải search.json:", err));
 
-searchInput.addEventListener('input', (e) => {
-  resultsList.innerHTML = '';
-  const term = e.target.value;
+    // --- XỬ LÝ KHI NGƯỜI DÙNG GÕ ---
+    searchInput.addEventListener('input', function(e) {
+        const term = e.target.value.trim();
 
-  if (term.length > 0 && fuse) {
-    const results = fuse.search(term);
+        // 1. Nếu ô tìm kiếm trống -> Ẩn kết quả
+        if (term.length === 0) {
+            resultsContainer.style.display = 'none';
+            resultsContainer.innerHTML = '';
+            return;
+        }
 
-    if (results.length === 0) {
-        resultsList.innerHTML = '<li style="padding: 10px; color: #999;">Không tìm thấy kết quả nào.</li>';
-    } else {
-        results.slice(0, 5).forEach(result => {
-          const item = result.item;
-          // item.url trong file json đã có baseurl rồi (theo code ở bước trước), nên ở đây không cần thêm nữa
-          const li = document.createElement('li');
-          li.innerHTML = `<a href="${item.url}" style="display:block; padding: 10px; border-bottom: 1px solid #eee; text-decoration: none; color: #333;">
-                            <strong style="color: #000;">${item.title}</strong> <br>
-                            <small style="color: #666;">${item.date} — ${item.tags}</small>
-                          </a>`;
-          // Hiệu ứng hover nhẹ (optional - thêm bằng JS cho gọn)
-          li.addEventListener('mouseenter', () => li.style.background = '#f9f9f9');
-          li.addEventListener('mouseleave', () => li.style.background = 'white');
+        // 2. Nếu đã có dữ liệu -> Thực hiện tìm kiếm
+        if (fuse) {
+            const results = fuse.search(term);
 
-          resultsList.appendChild(li);
-        });
-    }
-  }
-});
+            // Xóa kết quả cũ
+            resultsContainer.innerHTML = '';
 
-// Ẩn kết quả khi click ra ngoài (UX cải tiến)
-document.addEventListener('click', function(e) {
-    if (!searchInput.contains(e.target) && !resultsList.contains(e.target)) {
-        resultsList.innerHTML = '';
-    }
+            if (results.length > 0) {
+                // Có kết quả: Hiển thị danh sách
+                resultsContainer.style.display = 'block';
+
+                // Chỉ lấy tối đa 5 kết quả đầu tiên
+                results.slice(0, 5).forEach(result => {
+                    const item = result.item;
+                    const li = document.createElement('li');
+
+                    // Tạo HTML cho từng dòng kết quả
+                    li.innerHTML = `
+                        <a href="${item.url}">
+                            <div style="font-weight: 600; color: #000;">${item.title}</div>
+                            <div style="font-size: 12px; color: #888; margin-top: 2px;">
+                                ${item.date} — <span style="color: #ff3b30;">${item.tags}</span>
+                            </div>
+                        </a>
+                    `;
+                    resultsContainer.appendChild(li);
+                });
+            } else {
+                // Không có kết quả: Hiển thị thông báo
+                resultsContainer.style.display = 'block';
+                resultsContainer.innerHTML = `
+                    <li style="padding: 15px 20px; color: #999; text-align: center; font-size: 14px;">
+                        Không tìm thấy nội dung phù hợp.
+                    </li>
+                `;
+            }
+        }
+    });
+
+    // --- UX: ĐÓNG KHI CLICK RA NGOÀI ---
+    document.addEventListener('click', function(e) {
+        // Nếu click không trúng ô input và không trúng khung kết quả
+        if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+
+    // --- UX: ĐÓNG KHI NHẤN ESC ---
+    document.addEventListener('keydown', function(e) {
+        if (e.key === "Escape") {
+            resultsContainer.style.display = 'none';
+            searchInput.blur(); // Bỏ chọn ô input
+        }
+    });
 });
 </script>
   <!-- Google Tag Manager (noscript) -->
