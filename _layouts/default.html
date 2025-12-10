@@ -48,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let fuse; // Biến lưu trữ bộ máy tìm kiếm
 
     // --- TẢI DỮ LIỆU TỪ SEARCH.JSON ---
-    fetch('{{ site.baseurl }}/search.json')
+
+    fetch('{{ site.baseurl }}/assets/js/search.json')
         .then(response => {
             if (!response.ok) throw new Error("Không tìm thấy file dữ liệu.");
             return response.json();
