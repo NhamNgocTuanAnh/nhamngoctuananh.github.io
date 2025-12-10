@@ -548,3 +548,78 @@ function closeRandomPopup() {
     document.getElementById('random-post-modal').style.display = 'none';
 }
 </script>
+<button id="back-to-top" onclick="scrollToTop()" aria-label="Lên đầu trang">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 15l-6-6-6 6"/>
+    </svg>
+</button>
+
+<style>
+    #back-to-top {
+        display: none; /* Mặc định ẩn */
+        position: fixed;
+        bottom: 30px;
+        right: 30px; /* Góc phải dưới */
+        z-index: 99; /* Nằm dưới ô Search (z-index 9999) nhưng trên nội dung */
+
+        width: 45px;
+        height: 45px;
+        border: none;
+        border-radius: 50%; /* Hình tròn */
+        background-color: #333; /* Màu tối hợp theme */
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: opacity 0.3s, transform 0.3s;
+        opacity: 0; /* Để làm hiệu ứng mờ dần */
+
+        /* Căn giữa icon mũi tên */
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Hiệu ứng khi hiện ra */
+    #back-to-top.show {
+        display: flex;
+        opacity: 0.8;
+    }
+
+    #back-to-top:hover {
+        opacity: 1;
+        background-color: #000;
+        transform: translateY(-3px); /* Nhảy nhẹ lên khi di chuột vào */
+    }
+
+    /* Mobile: Thu nhỏ lại chút cho đỡ vướng */
+    @media (max-width: 600px) {
+        #back-to-top {
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+</style>
+
+<script>
+// Logic xử lý nút Back to Top
+document.addEventListener("DOMContentLoaded", function() {
+    const backToTopBtn = document.getElementById("back-to-top");
+
+    window.addEventListener("scroll", function() {
+        // Hiện nút khi cuộn xuống quá 300px
+        if (window.scrollY > 300) {
+            backToTopBtn.classList.add("show");
+        } else {
+            backToTopBtn.classList.remove("show");
+        }
+    });
+});
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Cuộn mượt mà
+    });
+}
+</script>
