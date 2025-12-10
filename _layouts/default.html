@@ -417,3 +417,119 @@ document.addEventListener('DOMContentLoaded', function() {
     background-color: #f9f9f9;
 }
 </style>
+
+<div id="random-post-modal" class="random-popup">
+    <div class="random-content">
+        <span class="close-btn" onclick="closeRandomPopup()">&times;</span>
+        <div class="random-label">✨ Có thể em đã bỏ lỡ</div>
+        <h3 id="random-post-title">...</h3>
+        <p id="random-post-date" style="color: #888; font-size: 0.9em; margin-bottom: 15px;"></p>
+        <a id="random-post-link" href="#" class="random-btn">Đọc ngay</a>
+    </div>
+</div>
+
+<style>
+    /* CSS cho Popup */
+    .random-popup {
+        display: none; /* Ẩn mặc định */
+        position: fixed; bottom: 30px; right: 30px; /* Góc phải dưới */
+        width: 300px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        z-index: 9999;
+        animation: slideUp 0.5s ease-out;
+        border: 1px solid #eee;
+        font-family: sans-serif; /* Hoặc font của em */
+    }
+
+    .random-content { padding: 20px; position: relative; }
+
+    .random-label {
+        font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+        color: #d77a61; /* Màu điểm nhấn */
+        font-weight: bold; margin-bottom: 8px;
+    }
+
+    .random-popup h3 {
+        margin: 0 0 10px 0; font-size: 16px; line-height: 1.4; color: #333;
+    }
+
+    .random-btn {
+        display: inline-block; padding: 8px 16px;
+        background: #333; color: white; text-decoration: none;
+        border-radius: 4px; font-size: 13px; transition: background 0.2s;
+    }
+    .random-btn:hover { background: #555; }
+
+    .close-btn {
+        position: absolute; top: 10px; right: 15px;
+        font-size: 20px; cursor: pointer; color: #999;
+    }
+
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Mobile: Hiện giữa màn hình thay vì góc */
+    @media (max-width: 600px) {
+        .random-popup { bottom: auto; top: 50%; left: 50%; transform: translate(-50%, -50%); right: auto; animation: none;}
+    }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    // CẤU HÌNH: Thời gian chờ giữa 2 lần hiện (tính bằng Giờ)
+    const HOURS_TO_WAIT = 24;
+
+    // Key để lưu trong bộ nhớ trình duyệt
+    const STORAGE_KEY = 'last_random_popup_time';
+
+    function shouldShowPopup() {
+        const lastShown = localStorage.getItem(STORAGE_KEY);
+        if (!lastShown) return true; // Chưa hiện bao giờ -> Hiện luôn
+
+        const now = new Date().getTime();
+        const diffHours = (now - lastShown) / (1000 * 60 * 60);
+
+        return diffHours >= HOURS_TO_WAIT;
+    }
+
+    if (shouldShowPopup()) {
+        // Tái sử dụng file search.json (Đỡ tốn tài nguyên tải file mới)
+        fetch('{{ site.baseurl }}/assets/js/search.json')
+            .then(response => response.json())
+            .then(data => {
+                // Lọc bỏ bài hiện tại (nếu đang ở trang bài viết)
+                const currentUrl = window.location.pathname;
+                const availablePosts = data.filter(post => !post.url.includes(currentUrl));
+
+                if (availablePosts.length > 0) {
+                    // --- THUẬT TOÁN NGẪU NHIÊN ---
+                    const randomIndex = Math.floor(Math.random() * availablePosts.length);
+                    const randomPost = availablePosts[randomIndex];
+
+                    // Điền dữ liệu vào Popup
+                    document.getElementById('random-post-title').textContent = randomPost.title;
+                    document.getElementById('random-post-date').textContent = randomPost.date;
+                    document.getElementById('random-post-link').href = randomPost.url;
+
+                    // Hiện Popup sau 3 giây (để khách đọc tiêu đề trang chính đã)
+                    setTimeout(() => {
+                        document.getElementById('random-post-modal').style.display = 'block';
+
+                        // Ghi lại thời gian đã hiện
+                        localStorage.setItem(STORAGE_KEY, new Date().getTime());
+                    }, 3000);
+                }
+            })
+            .catch(err => console.error('Lỗi random post:', err));
+    }
+});
+
+function closeRandomPopup() {
+    document.getElementById('random-post-modal').style.display = 'none';
+}
+</script>
