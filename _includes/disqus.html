@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var wrapper = document.getElementById('comments-wrapper');
 
     // LỚP BẢO VỆ: Nếu không thấy khung comment thì dừng ngay, không báo lỗi
+    // (Rất hữu ích cho các trang không có comment như Home/About)
     if (!wrapper) {
-        console.log("Không tìm thấy comments-wrapper, bỏ qua load Disqus.");
         return;
     }
 
