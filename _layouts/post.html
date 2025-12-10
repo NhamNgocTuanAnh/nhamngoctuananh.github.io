@@ -18,50 +18,10 @@ comments: true
     {{ content }}
   </section>
 
-  <nav class="post-actions" aria-label="Article actions" style="margin-top:20px">
-    <a href="#share" id="share" onclick="openShare()">Share</a>
-  </nav>
+{% if site.disqus_shortname and page.comments != false %}
+  {% include disqus.html %}
+{% endif %}
 
-
-  <div id="comments-wrapper" style="min-height:80px">
-    <div id="disqus_thread"></div>
-    <noscript>Vui lòng bật JavaScript để xem bình luận.</noscript>
-</div>
-
-<script>
-(function(){
-  var loaded = false;
-
-  function loadComments(){
-    if(loaded) return;
-    loaded = true;
-
-    // 2. Cấu hình: Định danh bài viết để không bị lỗi trùng lặp URL
-    window.disqus_config = function () {
-        this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
-        this.page.identifier = '{{ page.url }}';
-    };
-
-    {% if site.disqus_shortname %}
-    var d = document, s = d.createElement('script');
-    s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    // Chèn script vào head hoặc body là chuẩn nhất
-    (d.head || d.body).appendChild(s);
-    {% endif %}
-  }
-
-  // 3. Quan sát: Khi cuộn đến gần wrapper (cách 300px) thì tải
-  var observer = new IntersectionObserver(function(entries){
-    if(entries[0].isIntersecting) {
-        loadComments();
-        observer.disconnect(); // Ngắt quan sát để không chạy lại
-    }
-  }, {rootMargin: '300px'}); // Tải sớm một chút trước khi người dùng cuộn tới nơi
-
-  observer.observe(document.getElementById('comments-wrapper'));
-})();
-</script>
 </article>
 
 
