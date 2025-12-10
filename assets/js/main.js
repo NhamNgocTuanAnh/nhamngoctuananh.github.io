@@ -144,34 +144,5 @@ window.addEventListener('load', function () {
   const tetEls = document.querySelectorAll('.tet_left, .tet_right, .tet_bottom');
   tetEls.forEach(el => el.classList.add('visible-after-load'));
 });
-
-function createSnackbar(e){let t=document.createElement("div");t.id="snackbar";let n=document.createElement("span"),a=document.createElement("a");a.href=e.url||"#",a.textContent=`Next Post: ${e.title||"Untitled"}`,n.appendChild(a);let l=document.createElement("button");l.id="cancel",l.textContent="|| Đ\xf3ng X",l.onclick=()=>t.style.display="none",t.appendChild(n),t.appendChild(l),document.body.appendChild(t)};document.addEventListener("DOMContentLoaded", () => {
-    // JSON array of posts from the same categories as the current post
-    const sameCategoryPosts = [
-        {% assign current_categories = page.categories %}
-        {% for post in site.posts %}
-            {% if post != page %}
-                {% assign common_categories = post.categories | intersection: current_categories %}
-                {% if common_categories.size > 0 %}
-                {
-                    "title": "{{ post.title | escape }}",
-                    "url": "{{ post.url | relative_url }}",
-                    "date": "{{ post.date | date_to_string }}"
-                }{% if forloop.last == false %},{% endif %}
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-    ];
-
-    // Select a random post
-    const randomPost = sameCategoryPosts.length > 0
-        ? sameCategoryPosts[Math.floor(Math.random() * sameCategoryPosts.length)]
-        : null;
-
-    if (!randomPost) {
-        console.log("No related post found.");
-        return; // Không thực hiện tiếp nếu không có bài viết nào
-    }
-    let timeOnSite=0;function trackTimeOnSite(){(timeOnSite+=100)>=15e3&&(createSnackbar(randomPost),setTimeout(()=>showSnackbar(),1e3),clearInterval(intervalId))}const intervalId=setInterval(trackTimeOnSite,100);
-});function showSnackbar(){let e=document.getElementById("snackbar");e&&e.classList.add("show")};document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector(".read-more-trigger_closed"),n=document.querySelector(".read-more-trigger_opened");n.style.display="none",e.addEventListener("click",function(){e.style.display="none",n.style.display="inline"}),n.addEventListener("click",function(){n.style.display="none",e.style.display="inline"})});
+function showSnackbar(){let e=document.getElementById("snackbar");e&&e.classList.add("show")};document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector(".read-more-trigger_closed"),n=document.querySelector(".read-more-trigger_opened");n.style.display="none",e.addEventListener("click",function(){e.style.display="none",n.style.display="inline"}),n.addEventListener("click",function(){n.style.display="none",e.style.display="inline"})});
 window.addEventListener("load",function(){window.scrollTo({top:0,behavior:"smooth"});var t="reloadData__"+encodeURIComponent(window.location.origin+window.location.pathname+window.location.search),a=Date.now();let o;try{o=JSON.parse(localStorage.getItem(t))}catch(e){o=null}(!o||a-o.timestamp>432e6)&&(localStorage.setItem(t,JSON.stringify({timestamp:a})),location.reload())});
