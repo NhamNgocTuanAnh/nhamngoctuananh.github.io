@@ -4,35 +4,45 @@
 </div>
 
 <script>
-(function() {
-    // 1. Cấu hình định danh (Quan trọng để không mất comment)
+document.addEventListener("DOMContentLoaded", function() {
+    // Chỉ chạy code khi toàn bộ HTML đã tải xong
+
+    var wrapper = document.getElementById('comments-wrapper');
+
+    // LỚP BẢO VỆ: Nếu không thấy khung comment thì dừng ngay, không báo lỗi
+    if (!wrapper) {
+        console.log("Không tìm thấy comments-wrapper, bỏ qua load Disqus.");
+        return;
+    }
+
+    // Cấu hình Disqus
     var disqus_config = function () {
         this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
         this.page.identifier = '{{ page.url }}';
     };
 
-    // 2. Hàm tải Disqus
     var loaded = false;
     function loadDisqus() {
         if (loaded) return;
         loaded = true;
 
+        {% if site.disqus_shortname %}
         var d = document, s = d.createElement('script');
         s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
+        {% endif %}
     }
 
-    // 3. Lazy Load: Chỉ tải khi người dùng cuộn đến gần
+    // Khởi tạo Observer an toàn
     var observer = new IntersectionObserver(function(entries) {
         if (entries[0].isIntersecting) {
             loadDisqus();
-            observer.disconnect(); // Ngắt quan sát sau khi đã tải
+            observer.disconnect();
         }
-    }, { rootMargin: '200px' }); // Tải trước khi cuộn tới 200px
+    }, { rootMargin: '200px' });
 
-    // Bắt đầu quan sát
-    var wrapper = document.getElementById('comments-wrapper');
-    if (wrapper) observer.observe(wrapper);
-})();
+    // Lúc này chắc chắn wrapper đã tồn tại nhờ dòng if bên trên
+    observer.observe(wrapper);
+});
 </script>
