@@ -209,7 +209,158 @@ document.addEventListener('click', function(e) {
   <div class="tet_bottom"><img src="{{ site.baseurl }}/assets/images/bottom-1.png" alt="AnonyViet-Tet"/></div>
 -->
 
+<style> /* --- CẤU TRÚC HEADER --- */
+.site-header {
+  padding: 20px 40px;
+  background: #fff; /* Hoặc màu nền web của em */
+  border-bottom: 1px solid rgba(0,0,0,0.05); /* Đường viền mờ tinh tế */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+/* --- 1. LOGO STYLING --- */
+.logo-brand {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 24px;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: baseline;
+}
 
+.logo-text {
+  font-family: 'Playfair Display', serif; /* Gợi ý: Dùng font có chân cho nghệ thuật */
+}
 
+.logo-dot {
+  color: #ff4d4f; /* Điểm nhấn màu đỏ (như nút quay phim) */
+  font-size: 30px;
+  line-height: 0;
+  margin: 0 2px;
+}
+
+.logo-suffix {
+  font-weight: 300;
+  font-size: 14px;
+  color: #888;
+  margin-left: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* --- 2. SEARCH BOX STYLING (Algolia Style) --- */
+.search-box-wrapper {
+  position: relative;
+  flex-grow: 1;
+  max-width: 400px; /* Độ rộng tối đa của ô tìm kiếm */
+  margin: 0 40px;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+  background: #f5f5f7; /* Màu xám nhẹ kiểu Apple */
+  border-radius: 12px; /* Bo tròn mềm mại */
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+/* Hiệu ứng khi click vào */
+.search-input-group:focus-within {
+  background: #fff;
+  border-color: #ddd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Đổ bóng nhẹ */
+  transform: translateY(-1px);
+}
+
+.search-icon {
+  color: #999;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#search-input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+}
+
+#search-input::placeholder {
+  color: #bbb;
+}
+
+/* Kết quả tìm kiếm (Dropdown) */
+#results-container {
+  position: absolute;
+  top: 120%;
+  left: 0;
+  right: 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+  overflow: hidden;
+  display: empty; /* Ẩn khi không có nội dung */
+}
+
+#results-container li a {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s;
+}
+
+#results-container li a:hover {
+  background: #f9f9f9;
+  padding-left: 25px; /* Hiệu ứng trượt nhẹ khi hover */
+}
+
+/* --- 3. NAV MENU --- */
+.site-nav a {
+  text-decoration: none;
+  color: #555;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.site-nav a:hover {
+  color: #000;
+}
+
+/* Hiệu ứng gạch chân khi hover */
+.site-nav a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #ff4d4f;
+  transition: width 0.3s;
+}
+
+.site-nav a:hover::after {
+  width: 100%;
+}
+</style>
