@@ -49,98 +49,7 @@
         </div></div></center>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // --- CẤU HÌNH & KHỞI TẠO ---
-    const searchInput = document.getElementById('search-input'); // Ô nhập liệu
-    const resultsContainer = document.getElementById('ahx-results'); // Khung kết quả mới
-    let fuse; // Biến lưu trữ bộ máy tìm kiếm
 
-    // --- TẢI DỮ LIỆU TỪ SEARCH.JSON ---
-
-    fetch('{{ site.baseurl }}/assets/js/search.json')
-        .then(response => {
-            if (!response.ok) throw new Error("Không tìm thấy file dữ liệu.");
-            return response.json();
-        })
-        .then(data => {
-            // Cài đặt độ thông minh của thuật toán
-            fuse = new Fuse(data, {
-                includeScore: true,
-                threshold: 0.4, // Độ chấp nhận sai sót (0.0 - 1.0)
-                keys: ['title', 'tags', 'category'] // Các trường thông tin cần tìm
-            });
-            console.log("Dữ liệu tìm kiếm đã sẵn sàng."); // Log kiểm tra
-        })
-        .catch(err => console.error("Lỗi tải search.json:", err));
-
-    // --- XỬ LÝ KHI NGƯỜI DÙNG GÕ ---
-    searchInput.addEventListener('input', function(e) {
-        const term = e.target.value.trim();
-
-        // 1. Nếu ô tìm kiếm trống -> Ẩn kết quả
-        if (term.length === 0) {
-            resultsContainer.style.display = 'none';
-            resultsContainer.innerHTML = '';
-            return;
-        }
-
-        // 2. Nếu đã có dữ liệu -> Thực hiện tìm kiếm
-        if (fuse) {
-            const results = fuse.search(term);
-
-            // Xóa kết quả cũ
-            resultsContainer.innerHTML = '';
-
-            if (results.length > 0) {
-                // Có kết quả: Hiển thị danh sách
-                resultsContainer.style.display = 'block';
-
-                // Chỉ lấy tối đa 5 kết quả đầu tiên
-                results.slice(0, 5).forEach(result => {
-                    const item = result.item;
-                    const li = document.createElement('li');
-
-                    // Tạo HTML cho từng dòng kết quả
-                    li.innerHTML = `
-                        <a href="${item.url}">
-                            <div style="font-weight: 600; color: #000;">${item.title}</div>
-                            <div style="font-size: 12px; color: #888; margin-top: 2px;">
-                                ${item.date} — <span style="color: #ff3b30;">${item.tags}</span>
-                            </div>
-                        </a>
-                    `;
-                    resultsContainer.appendChild(li);
-                });
-            } else {
-                // Không có kết quả: Hiển thị thông báo
-                resultsContainer.style.display = 'block';
-                resultsContainer.innerHTML = `
-                    <li style="padding: 15px 20px; color: #999; text-align: center; font-size: 14px;">
-                        Không tìm thấy nội dung phù hợp.
-                    </li>
-                `;
-            }
-        }
-    });
-
-    // --- UX: ĐÓNG KHI CLICK RA NGOÀI ---
-    document.addEventListener('click', function(e) {
-        // Nếu click không trúng ô input và không trúng khung kết quả
-        if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
-            resultsContainer.style.display = 'none';
-        }
-    });
-
-    // --- UX: ĐÓNG KHI NHẤN ESC ---
-    document.addEventListener('keydown', function(e) {
-        if (e.key === "Escape") {
-            resultsContainer.style.display = 'none';
-            searchInput.blur(); // Bỏ chọn ô input
-        }
-    });
-});
-</script>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-8WQCFPL56N"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -244,180 +153,6 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="tet_bottom"><img src="{{ site.baseurl }}/assets/images/bottom-1.png" alt="AnonyViet-Tet"/></div>
 -->
 
-<style>
-/* Reset riêng cho khu vực này để không bị ảnh hưởng bởi CSS bên ngoài */
-#ahx-isolated-header {
-    all: initial; /* Xóa bỏ mọi thừa kế từ web cũ */
-    display: block;
-    width: 100%;
-    background: #ffffff;
-    border-bottom: 1px solid rgba(0,0,0,0.06);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 999;
-}
-
-#ahx-isolated-header * {
-    box-sizing: border-box; /* Đảm bảo padding không làm vỡ khung */
-}
-
-.ahx-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
-/* 1. LOGO STYLE */
-.ahx-logo {
-    text-decoration: none !important;
-    display: flex;
-    align-items: baseline;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-}
-
-.ahx-logo-text {
-    font-size: 26px;
-    font-weight: 800;
-    color: #111;
-    letter-spacing: -1px;
-}
-
-.ahx-logo-dot {
-    width: 8px;
-    height: 8px;
-    background-color: #ff3b30; /* Màu đỏ record */
-    border-radius: 50%;
-    margin: 0 4px;
-    display: inline-block;
-}
-
-.ahx-logo-sub {
-    font-size: 13px;
-    color: #888;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
-
-/* 2. SEARCH STYLE (Dạng viên thuốc) */
-.ahx-search-wrapper {
-    flex-grow: 1;
-    max-width: 450px;
-    position: relative;
-}
-
-.ahx-search-bar {
-    display: flex;
-    align-items: center;
-    background: #f2f2f4; /* Màu xám nhạt */
-    border-radius: 99px; /* Bo tròn hoàn toàn */
-    padding: 8px 16px;
-    transition: all 0.2s ease;
-    border: 1px solid transparent;
-}
-
-.ahx-search-bar:focus-within {
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    border-color: #e0e0e0;
-}
-
-.ahx-search-icon {
-    color: #999;
-    margin-right: 10px;
-    display: flex;
-}
-
-.ahx-search-input {
-    border: none !important;
-    background: transparent !important;
-    outline: none !important;
-    font-size: 15px;
-    width: 100%;
-    color: #333;
-    padding: 0;
-    margin: 0;
-    height: auto;
-}
-
-/* 3. MENU STYLE */
-.ahx-nav {
-    display: flex;
-    gap: 25px;
-}
-
-.ahx-nav-link {
-    text-decoration: none !important;
-    color: #555 !important;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 5px 0;
-    position: relative;
-    transition: color 0.2s;
-}
-
-.ahx-nav-link:hover {
-    color: #000 !important;
-}
-
-.ahx-nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background: #ff3b30;
-    transition: width 0.3s ease;
-}
-
-.ahx-nav-link:hover::after {
-    width: 100%;
-}
-
-/* 4. DROPDOWN KẾT QUẢ (Sạch sẽ) */
-#ahx-results {
-    position: absolute;
-    top: 110%;
-    left: 0;
-    width: 100%;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.12);
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: none; /* Ẩn mặc định */
-    overflow: hidden;
-    z-index: 1000;
-    border: 1px solid #eee;
-}
-
-#ahx-results li {
-    margin: 0 !important;
-}
-
-#ahx-results a {
-    display: block;
-    padding: 12px 20px;
-    text-decoration: none !important;
-    color: #333 !important;
-    border-bottom: 1px solid #f5f5f5;
-    font-size: 14px;
-}
-
-#ahx-results a:hover {
-    background-color: #f9f9f9;
-}
-</style>
-
 <div id="random-post-modal" class="random-popup">
     <div class="random-content">
         <span class="close-btn" onclick="closeRandomPopup()">&times;</span>
@@ -428,55 +163,6 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
 
-<style>
-    /* CSS cho Popup */
-    .random-popup {
-        display: none; /* Ẩn mặc định */
-        position: fixed; bottom: 30px; right: 30px; /* Góc phải dưới */
-        width: 300px;
-        background: white;
-        border-radius: 12px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-        z-index: 9999;
-        animation: slideUp 0.5s ease-out;
-        border: 1px solid #eee;
-        font-family: sans-serif; /* Hoặc font của em */
-    }
-
-    .random-content { padding: 20px; position: relative; }
-
-    .random-label {
-        font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
-        color: #d77a61; /* Màu điểm nhấn */
-        font-weight: bold; margin-bottom: 8px;
-    }
-
-    .random-popup h3 {
-        margin: 0 0 10px 0; font-size: 16px; line-height: 1.4; color: #333;
-    }
-
-    .random-btn {
-        display: inline-block; padding: 8px 16px;
-        background: #333; color: white; text-decoration: none;
-        border-radius: 4px; font-size: 13px; transition: background 0.2s;
-    }
-    .random-btn:hover { background: #555; }
-
-    .close-btn {
-        position: absolute; top: 10px; right: 15px;
-        font-size: 20px; cursor: pointer; color: #999;
-    }
-
-    @keyframes slideUp {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* Mobile: Hiện giữa màn hình thay vì góc */
-    @media (max-width: 600px) {
-        .random-popup { bottom: auto; top: 50%; left: 50%; transform: translate(-50%, -50%); right: auto; animation: none;}
-    }
-</style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -554,52 +240,7 @@ function closeRandomPopup() {
     </svg>
 </button>
 
-<style>
-    #back-to-top {
-        display: none; /* Mặc định ẩn */
-        position: fixed;
-        bottom: 130px;
-        right: 30px; /* Góc phải dưới */
-        z-index: 99; /* Nằm dưới ô Search (z-index 9999) nhưng trên nội dung */
 
-        width: 45px;
-        height: 45px;
-        border: none;
-        border-radius: 50%; /* Hình tròn */
-        background-color: #333; /* Màu tối hợp theme */
-        color: white;
-        cursor: pointer;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        transition: opacity 0.3s, transform 0.3s;
-        opacity: 0; /* Để làm hiệu ứng mờ dần */
-
-        /* Căn giữa icon mũi tên */
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Hiệu ứng khi hiện ra */
-    #back-to-top.show {
-        display: flex;
-        opacity: 0.8;
-    }
-
-    #back-to-top:hover {
-        opacity: 1;
-        background-color: #000;
-        transform: translateY(-3px); /* Nhảy nhẹ lên khi di chuột vào */
-    }
-
-    /* Mobile: Thu nhỏ lại chút cho đỡ vướng */
-    @media (max-width: 600px) {
-        #back-to-top {
-            bottom: 20px;
-            right: 20px;
-            width: 40px;
-            height: 40px;
-        }
-    }
-</style>
 
 <script>
 // Logic xử lý nút Back to Top
@@ -663,5 +304,97 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Gắn "tai mắt" để lắng nghe hành động cuộn
     window.addEventListener('scroll', checkScroll);
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // --- CẤU HÌNH & KHỞI TẠO ---
+    const searchInput = document.getElementById('search-input'); // Ô nhập liệu
+    const resultsContainer = document.getElementById('ahx-results'); // Khung kết quả mới
+    let fuse; // Biến lưu trữ bộ máy tìm kiếm
+
+    // --- TẢI DỮ LIỆU TỪ SEARCH.JSON ---
+
+    fetch('{{ site.baseurl }}/assets/js/search.json')
+        .then(response => {
+            if (!response.ok) throw new Error("Không tìm thấy file dữ liệu.");
+            return response.json();
+        })
+        .then(data => {
+            // Cài đặt độ thông minh của thuật toán
+            fuse = new Fuse(data, {
+                includeScore: true,
+                threshold: 0.4, // Độ chấp nhận sai sót (0.0 - 1.0)
+                keys: ['title', 'tags', 'category'] // Các trường thông tin cần tìm
+            });
+            console.log("Dữ liệu tìm kiếm đã sẵn sàng."); // Log kiểm tra
+        })
+        .catch(err => console.error("Lỗi tải search.json:", err));
+
+    // --- XỬ LÝ KHI NGƯỜI DÙNG GÕ ---
+    searchInput.addEventListener('input', function(e) {
+        const term = e.target.value.trim();
+
+        // 1. Nếu ô tìm kiếm trống -> Ẩn kết quả
+        if (term.length === 0) {
+            resultsContainer.style.display = 'none';
+            resultsContainer.innerHTML = '';
+            return;
+        }
+
+        // 2. Nếu đã có dữ liệu -> Thực hiện tìm kiếm
+        if (fuse) {
+            const results = fuse.search(term);
+
+            // Xóa kết quả cũ
+            resultsContainer.innerHTML = '';
+
+            if (results.length > 0) {
+                // Có kết quả: Hiển thị danh sách
+                resultsContainer.style.display = 'block';
+
+                // Chỉ lấy tối đa 5 kết quả đầu tiên
+                results.slice(0, 5).forEach(result => {
+                    const item = result.item;
+                    const li = document.createElement('li');
+
+                    // Tạo HTML cho từng dòng kết quả
+                    li.innerHTML = `
+                        <a href="${item.url}">
+                            <div style="font-weight: 600; color: #000;">${item.title}</div>
+                            <div style="font-size: 12px; color: #888; margin-top: 2px;">
+                                ${item.date} — <span style="color: #ff3b30;">${item.tags}</span>
+                            </div>
+                        </a>
+                    `;
+                    resultsContainer.appendChild(li);
+                });
+            } else {
+                // Không có kết quả: Hiển thị thông báo
+                resultsContainer.style.display = 'block';
+                resultsContainer.innerHTML = `
+                    <li style="padding: 15px 20px; color: #999; text-align: center; font-size: 14px;">
+                        Không tìm thấy nội dung phù hợp.
+                    </li>
+                `;
+            }
+        }
+    });
+
+    // --- UX: ĐÓNG KHI CLICK RA NGOÀI ---
+    document.addEventListener('click', function(e) {
+        // Nếu click không trúng ô input và không trúng khung kết quả
+        if (!searchInput.contains(e.target) && !resultsContainer.contains(e.target)) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+
+    // --- UX: ĐÓNG KHI NHẤN ESC ---
+    document.addEventListener('keydown', function(e) {
+        if (e.key === "Escape") {
+            resultsContainer.style.display = 'none';
+            searchInput.blur(); // Bỏ chọn ô input
+        }
+    });
 });
 </script>
