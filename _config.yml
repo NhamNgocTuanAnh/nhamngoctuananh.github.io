@@ -180,3 +180,6 @@ jekyll-minifier:
     harmony: true
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+disqus_shortname: "anhhangxom"
+url: "https://anhhangxomfoto.github.io" # Cần khai báo URL chuẩn để định danh comment
