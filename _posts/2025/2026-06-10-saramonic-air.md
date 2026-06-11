@@ -1,13 +1,13 @@
 ---
 title: Đánh Giá Haixnfire H030. Vệt Sáng Trong Đêm
-layout: default
+layout: post
 author: sal
 lazyimages: enabled
 categories:
 - "Reviews \U0001F4DD"
 tags:
 - nhiếp ảnh
-image: assets/images/2025/85mmhsm.webp
+image: assets/images/2025/saramonic-air-avt.webp
 rating: 5
 isGithubComments: false
 permalink: reviews/2026-06-10-saramonic
