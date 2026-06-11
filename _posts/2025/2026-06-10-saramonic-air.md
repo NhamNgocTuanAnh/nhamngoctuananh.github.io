@@ -15,7 +15,7 @@ excerpt: Có những ngày mệt mỏi, tôi chỉ muốn thu mình lại trong 
 description: Có những ngày mệt mỏi, tôi chỉ muốn thu mình lại trong một không gian hẹp, tắt hết những nguồn sáng chói chang và làm việc với những dải bóng tối. Trong nhiếp ảnh, đôi khi thứ tạo nên cảm xúc không phải là phần được chiếu sáng, mà là phần bị khuất lấp. Và để tạo ra sự tương phản sắc lẹm đó mà không cần đến những thiết bị studio cồng kềnh, tôi tìm đến một công cụ nhỏ bé nhưng đầy bạo liệt, chiếc đèn Haixnfire H030. Nó không sinh ra để làm đèn nhiếp ảnh, nhưng nó lại mang đúng cái tinh thần mà tôi cần, Nhỏ gọn, tập trung và không thỏa hiệp.
 adsense: enabled
 keywords:
-- Haixnfire H030
+- Saramonic Air 01
 date: '2026-06-10 11:11:11'
 ---
 
