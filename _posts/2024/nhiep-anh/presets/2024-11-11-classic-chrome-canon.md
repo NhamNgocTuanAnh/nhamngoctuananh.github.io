@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[ Share ] PictureStyle Classic Chrome. Chụp ảnh ăn liên Canon như FujiFlim | Tải miễn phí'
+title: '[ Share ] PictureStyle Classic Chrome. Chụp ảnh ăn liên Canon như FujiFlim'
 author: sal
 lazyimages: "enabled"
 categories: [ Nhiếp ảnh 📸 ]
