@@ -30,13 +30,13 @@ Hệ thống được thiết kế với 2 phần, gồm:
   * Server trao đổi dữ liệu với ReactJs bằng phương thức HTTP, server sẽ trả các dữ liệu cho client dưới dạng Json
   * Sever liên kết với database ở đây là PostgreSQL
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/np0RUch"><img src="https://i.imgur.com/np0RUch.png" title="source: imgur.com" /></a><p>Cấu trúc thư mục mã nguồn</p><br>
 </div>
 
 * FrontEnd: File chứa toàn bộ code Frontend
 * BankEnd: File chứa toàn bộ code BackEnd
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/2BBuDDe"><img src="https://i.imgur.com/2BBuDDe.png" title="source: imgur.com" /></a><p>Cấu trúc file backend và frontend</p><br>
 </div>

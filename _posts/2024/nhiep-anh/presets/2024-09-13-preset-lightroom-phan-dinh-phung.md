@@ -20,7 +20,7 @@ pinned: true
 ---
 
 <h2>1. Tại sao n&ecirc;n sử dụng Preset Lightroom khi chụp ảnh ở Phan Đ&igrave;nh Ph&ugrave;ng?</h2>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/HWm8f1U"><img loading="lazy" src="https://i.imgur.com/HWm8f1U.png" title="source: imgur.com" /></a><p></p><br></div>
 <p>Preset Lightroom gi&uacute;p bạn nhanh ch&oacute;ng điều chỉnh &aacute;nh s&aacute;ng, m&agrave;u sắc v&agrave; tương phản của bức ảnh chỉ với một lần bấm. Đặc biệt, đối với c&aacute;c bức ảnh chụp ở Phan Đ&igrave;nh Ph&ugrave;ng - nơi &aacute;nh s&aacute;ng tự nhi&ecirc;n xuy&ecirc;n qua h&agrave;ng c&acirc;y xanh m&aacute;t tạo n&ecirc;n kh&ocirc;ng gian mờ ảo, việc sử dụng preset gi&uacute;p l&agrave;m nổi bật vẻ đẹp thi&ecirc;n nhi&ecirc;n v&agrave; giữ được n&eacute;t cổ điển, l&atilde;ng mạn của con đường.</p>
 
@@ -31,7 +31,7 @@ pinned: true
 	<li><strong>Đồng bộ phong c&aacute;ch:</strong> C&aacute;c preset gi&uacute;p bạn duy tr&igrave; c&ugrave;ng một phong c&aacute;ch m&agrave;u sắc cho cả bộ ảnh.</li>
 	<li><strong>Tối ưu cho từng điều kiện &aacute;nh s&aacute;ng:</strong> Với nhiều loại preset kh&aacute;c nhau, bạn c&oacute; thể dễ d&agrave;ng t&igrave;m ra kiểu ph&ugrave; hợp với điều kiện &aacute;nh s&aacute;ng của từng thời điểm trong ng&agrave;y tại Phan Đ&igrave;nh Ph&ugrave;ng.</li>
 </ul>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/JeK4e08"><img loading="lazy" src="https://i.imgur.com/JeK4e08.png" title="source: imgur.com" /></a><p></p><br></div>
 <h2>2. Top Preset Lightroom ph&ugrave; hợp cho chụp ảnh tại Phan Đ&igrave;nh Ph&ugrave;ng</h2>
 
@@ -50,7 +50,7 @@ pinned: true
 <h3>Preset Đen Trắng</h3>
 
 <p><strong>Preset đen trắng</strong> l&agrave; một lựa chọn tuyệt vời cho những ai y&ecirc;u th&iacute;ch sự tinh tế v&agrave; đơn giản. Kh&ocirc;ng c&oacute; sự ph&acirc;n t&acirc;m bởi m&agrave;u sắc, những bức ảnh sẽ tập trung v&agrave;o chi tiết v&agrave; cảm x&uacute;c. Đ&acirc;y l&agrave; một phong c&aacute;ch chụp rất ph&ugrave; hợp khi muốn thể hiện sự y&ecirc;n b&igrave;nh, tĩnh lặng của con đường Phan Đ&igrave;nh Ph&ugrave;ng.</p>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/oqM0zBF"><img loading="lazy" src="https://i.imgur.com/oqM0zBF.png" title="source: imgur.com" /></a><p></p><br></div>
 <h2>3. C&aacute;ch sử dụng Preset Lightroom hiệu quả</h2>
 
@@ -59,7 +59,7 @@ pinned: true
 <p>D&ugrave; sử dụng preset gi&uacute;p tiết kiệm nhiều thời gian, nhưng đ&ocirc;i khi bạn vẫn cần tinh chỉnh lại v&agrave;i th&ocirc;ng số để bức ảnh trở n&ecirc;n ho&agrave;n hảo hơn. Sau khi &aacute;p dụng preset, bạn c&oacute; thể điều chỉnh lại độ s&aacute;ng, tương phản, c&acirc;n bằng trắng để ph&ugrave; hợp với từng bức ảnh cụ thể.</p>
 
 <h3>Sử dụng đ&uacute;ng preset cho từng bối cảnh</h3>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/bmafJRa"><img loading="lazy" src="https://i.imgur.com/bmafJRa.png" title="source: imgur.com" /></a><p></p><br></div>
 <p>Kh&ocirc;ng phải tất cả preset đều ph&ugrave; hợp cho mọi điều kiện chụp. V&iacute; dụ, khi chụp dưới &aacute;nh s&aacute;ng mặt trời mạnh, h&atilde;y chọn c&aacute;c preset c&oacute; khả năng l&agrave;m dịu &aacute;nh s&aacute;ng v&agrave; tăng độ mềm mại. Trong khi đ&oacute;, v&agrave;o những ng&agrave;y mưa hay trời &acirc;m u, c&aacute;c preset t&ocirc;ng ấm sẽ gi&uacute;p bức ảnh trở n&ecirc;n ấm &aacute;p v&agrave; ấn tượng hơn.</p>
 

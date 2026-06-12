@@ -22,7 +22,7 @@ pinned: true
 
 Preset Hoàng Hồ Tây là một bộ lọc màu được thiết kế đặc biệt để tạo ra những bức ảnh mang đậm phong cách vintage, lãng mạn, phù hợp với khung cảnh hồ Tây và vẻ đẹp của các cô gái. Với preset này, bạn sẽ dễ dàng có được những bức ảnh với tông màu ấm áp, hài hòa, làm nổi bật làn da, đôi mắt và mái tóc của người mẫu.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/hRCIFUd"><img loading="lazy" src="https://i.imgur.com/hRCIFUd.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/uEcIKSa"><img loading="lazy" src="https://i.imgur.com/uEcIKSa.png" title="source: imgur.com" /></a><p></p><br></div>
 
 ### **Chia sẻ kinh nghiệm chụp ảnh:**
@@ -31,7 +31,7 @@ Preset Hoàng Hồ Tây là một bộ lọc màu được thiết kế đặc b
 *   **Tạo dáng cho người mẫu:** Hướng dẫn người mẫu tạo những dáng pose tự nhiên, thoải mái.
 *   **Sử dụng phụ kiện:** Một chiếc mũ, một bó hoa hay một chiếc ô cũng có thể làm cho bức ảnh của bạn trở nên sinh động hơn.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/hRCIFUd"><img loading="lazy" src="https://i.imgur.com/wZgi1zF.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/uEcIKSa"><img loading="lazy" src="https://i.imgur.com/ovQhkVT.png" title="source: imgur.com" /></a><p></p><br></div>
 
 ### **Cách sử dụng preset:**
@@ -41,10 +41,10 @@ Preset Hoàng Hồ Tây là một bộ lọc màu được thiết kế đặc b
 
 ### **Kết quả:**
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/hRCIFUd"><img loading="lazy" src="https://i.imgur.com/nPmntmc.png" title="source: imgur.com" /></a><p></p><br></div>
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/hRCIFUd"><img loading="lazy" src="https://i.imgur.com/hRCIFUd.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/uEcIKSa"><img loading="lazy" src="https://i.imgur.com/uEcIKSa.png" title="source: imgur.com" /></a><p></p><br></div>
 
 ### **Kết luận:**

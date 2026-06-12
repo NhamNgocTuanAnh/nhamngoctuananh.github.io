@@ -29,7 +29,7 @@ gọi yêu cầu. Bảng cơ sở dữ liệu quan hệ cộng thêm mô tả b�
 
 #### Quản lý câu hỏi
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/6FbcOLz"><img src="https://i.imgur.com/6FbcOLz.png" title="source: imgur.com" /></a><p>Sơ đồ lớp câu hỏi</p><br>
 <a href="https://imgur.com/ye2qUJc"><img src="https://i.imgur.com/ye2qUJc.png" title="source: imgur.com" /></a><p>Tạo câu hỏi</p><br><a href="https://imgur.com/TeDkX1T"><img src="https://i.imgur.com/TeDkX1T.png" title="source: imgur.com" /></a><p>Sửa câu hỏi</p><br><a href="https://imgur.com/yc1gD3S"><img src="https://i.imgur.com/yc1gD3S.png" title="source: imgur.com" /></a><p>Chức năng xóa câu hỏi</p><br>
 </div>

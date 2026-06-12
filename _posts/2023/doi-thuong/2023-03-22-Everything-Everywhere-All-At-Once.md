@@ -28,5 +28,5 @@ Vì sao cô ấy lại cảm thấy việc cưới Wang là điều không tốt
 Suy cho cùng, mọi việc diễn ra trong cuộc đời của mỗi người đều không có ai đúng, không có ai sai. Đã lựa chọn hướng đi như thế nào thì hãy chấp nhận và chịu trách nhiệm với quyết định của mình.
 Cũng như mạch truyện chính vậy, cưới nhau là chuyện của cả 2 đã quyết định, đừng hối hận mà hãy làm tốt cái quyết định đó của mình. Cuối cùng, Evelyn là một người vợ và một người mẹ tuyệt vời ^^
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img data-src="../../assets/images/2023/ngam/tinh-nguyen-vien.webp" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">Đi vui lắm mọi người ạ😍</span></div>

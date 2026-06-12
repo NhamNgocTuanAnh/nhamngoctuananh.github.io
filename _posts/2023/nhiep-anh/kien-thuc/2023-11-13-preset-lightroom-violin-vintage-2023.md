@@ -60,7 +60,7 @@ pinned: true
 
 Violin cổ điển là một loại nhạc cụ mang vẻ đẹp tinh tế và thanh lịch. Để chụp được những bức ảnh về nam violin cổ điển đẹp, bạn cần có kỹ năng chụp ảnh và sử dụng phần mềm Lightroom. Trong bài viết này, mình sẽ chia sẻ preset Lightroom nam violin cổ điển giúp bạn dễ dàng tạo ra những bức ảnh đẹp và chuyên nghiệp.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/g9cVH89"><img loading="lazy" src="https://i.imgur.com/g9cVH89.jpg" title="source: imgur.com" /></a></div>
 
 **Cách sử dụng preset Lightroom nam violin cổ điển**
@@ -79,12 +79,12 @@ Preset sẽ được áp dụng cho ảnh của bạn. Bạn có thể điều c
 
 **Một số ảnh Lightroom nam violin cổ điển đẹp**
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/UxaUqQq"><img loading="lazy" src="https://i.imgur.com/UxaUqQq.jpg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/q2xbOkw"><img loading="lazy" src="https://i.imgur.com/q2xbOkw.jpg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/d1IOdC4"><img loading="lazy" src="https://i.imgur.com/d1IOdC4.jpg" title="source: imgur.com" /></a><p></p><br></div>
 
 **Mô tả preset Lightroom nam violin cổ điển**
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/F4nlBZm"><img loading="lazy" src="https://i.imgur.com/F4nlBZm.jpg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/56uKmuv"><img loading="lazy" src="https://i.imgur.com/56uKmuv.jpg" title="source: imgur.com" /></a><p></p><br></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/F4nlBZm"><img loading="lazy" src="https://i.imgur.com/F4nlBZm.jpg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/56uKmuv"><img loading="lazy" src="https://i.imgur.com/56uKmuv.jpg" title="source: imgur.com" /></a><p></p><br></div>
 
 Preset Lightroom nam violin cổ điển bao gồm các cài đặt sau:
 
@@ -103,7 +103,7 @@ Khi sử dụng preset chụp ảnh violin nam, bạn cần lưu ý một số �
 
 **Kết luận**
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/Mkz0m4O"><img loading="lazy" src="https://i.imgur.com/Mkz0m4O.jpg" title="source: imgur.com" /></a></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/Mkz0m4O"><img loading="lazy" src="https://i.imgur.com/Mkz0m4O.jpg" title="source: imgur.com" /></a></div>
 
 Preset Lightroom nam violin cổ điển sẽ giúp bạn tạo ra những bức ảnh nam violin cổ điển đẹp và chuyên nghiệp.
 

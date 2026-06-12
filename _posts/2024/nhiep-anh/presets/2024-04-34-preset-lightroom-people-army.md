@@ -63,7 +63,7 @@ pinned: true
 
 Chào mừng ngày lễ lớn 30/4 và 1/5! Để kỷ niệm ngày giải phóng miền Nam, thống nhất đất nước và ngày Quốc tế Lao động, hãy cùng nhau khoác lên những bức ảnh của bạn màu xanh áo lính đầy tự hào với bộ preset Lightroom Army đặc biệt.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/UpZ4cZq"><img loading="lazy" src="https://i.imgur.com/DGiEbYe.png" title="source: imgur.com" /></a></div>
 
 **Cách sử dụng preset Lightroom**
@@ -81,7 +81,7 @@ Preset sẽ được áp dụng cho ảnh của bạn. Bạn có thể điều c
 
 **Một số ảnh Lightroom đẹp**
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://i.imgur.com/V1Dakkv"><img loading="lazy" src="https://i.imgur.com/uvHMO4H.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/n1aJ50o"><img loading="lazy" src="https://i.imgur.com/yIw2gzW.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/PUJtfYG"><img loading="lazy" src="https://i.imgur.com/YoFlWFm.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/qHvr4Cb"><img loading="lazy" src="https://i.imgur.com/9AArhru.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/DUfuILk"><img loading="lazy" src="https://i.imgur.com/EWc1fVE.png" title="source: imgur.com" /></a><p></p><br></div>
 
 **Mô tả preset Lightroom**
@@ -105,7 +105,7 @@ Khi sử dụng preset chụp ảnh, bạn cần lưu ý một số điều sau:
 
 **Kết luận**
 
-<div class="content" style="text-align:center; "><a href="https://i.imgur.com/WKcs6a3"><img loading="lazy" src="https://i.imgur.com/HtS3kUx.png" title="source: imgur.com" /></a></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://i.imgur.com/WKcs6a3"><img loading="lazy" src="https://i.imgur.com/HtS3kUx.png" title="source: imgur.com" /></a></div>
 
 Preset Lightroom  sẽ giúp bạn tạo ra những bức ảnh  đẹp và chuyên nghiệp.
 

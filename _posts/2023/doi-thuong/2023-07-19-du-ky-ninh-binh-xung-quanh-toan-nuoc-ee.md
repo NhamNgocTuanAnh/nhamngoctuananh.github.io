@@ -46,7 +46,7 @@ Nghỉ hè rồi bạn ơi. Đã lâu rồi không đi cùng gia đình. T
 
 ### Xuất phát
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/MH0EzXM"><img   src="https://i.imgur.com/MH0EzXM.jpg" title="source: imgur.com" /></a><br><span class="image-caption">mình xuất phát từ Hà Nội với xe khách đón tại Nhà hát lớn Hà Nội!</span><br><a href="https://imgur.com/fLZA24Y"><img   src="https://i.imgur.com/fLZA24Y.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Mình có chút lo lắng vì 6-7h sáng xe mới bắt đầu xuất phát - mà đi ninh bình mất 5-6 tiếng chứ ít gì.</span><br><a href="https://imgur.com/uDMlPt0"><img   src="https://i.imgur.com/uDMlPt0.jpg" title="source: imgur.com" /></a><br><span class="image-caption">View từ đường vành đai 3 trên cao</span></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/MH0EzXM"><img   src="https://i.imgur.com/MH0EzXM.jpg" title="source: imgur.com" /></a><br><span class="image-caption">mình xuất phát từ Hà Nội với xe khách đón tại Nhà hát lớn Hà Nội!</span><br><a href="https://imgur.com/fLZA24Y"><img   src="https://i.imgur.com/fLZA24Y.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Mình có chút lo lắng vì 6-7h sáng xe mới bắt đầu xuất phát - mà đi ninh bình mất 5-6 tiếng chứ ít gì.</span><br><a href="https://imgur.com/uDMlPt0"><img   src="https://i.imgur.com/uDMlPt0.jpg" title="source: imgur.com" /></a><br><span class="image-caption">View từ đường vành đai 3 trên cao</span></div>
 
 <hr style="border: 1px solid #000000;">
 <p style="margin-bottom: 0px; font-weight: 700;font-size: 1.75rem;">Mục lục</p>
@@ -62,13 +62,13 @@ Nghỉ hè rồi bạn ơi. Đã lâu rồi không đi cùng gia đình. T
 
 Và cuối cùng thì ngày này đã đến. Điểm đầu tiên mình qua là khu sinh thái **Tràng An** - Lúc **14h**.
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/djVCTsQ"><img class="lazyload"  src="https://i.imgur.com/djVCTsQ.jpg" title="source: imgur.com" /></a><span class="image-caption">Dân tổ, hơi tý gạ đua</span></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/djVCTsQ"><img class="lazyload"  src="https://i.imgur.com/djVCTsQ.jpg" title="source: imgur.com" /></a><span class="image-caption">Dân tổ, hơi tý gạ đua</span></div>
 
 Ngồi thuyền hơn 3 tiếng đồng hồ bạn sẽ được người chèo đò đưa đi du ngoạn 10km trên sông, tận gần 10km lận nhé các bạn.
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/9c0ok0V"><img class="lazyload" loading="lazy" src="https://i.imgur.com/9c0ok0V.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/V5mbKzM"><img class="lazyload" loading="lazy" src="https://i.imgur.com/V5mbKzM.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/OOxHXDp"><img class="lazyload" loading="lazy" src="https://i.imgur.com/OOxHXDp.jpg" title="source: imgur.com" /></a><span class="image-caption">Núi non trùng điệp</span><br><p></p><br><a href="https://imgur.com/ZVFOpix"><img class="lazyload" loading="lazy" src="https://i.imgur.com/ZVFOpix.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/gJrKiC9"><img class="lazyload" loading="lazy" src="https://i.imgur.com/gJrKiC9.jpg" title="source: imgur.com" /></a></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/9c0ok0V"><img class="lazyload" loading="lazy" src="https://i.imgur.com/9c0ok0V.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/V5mbKzM"><img class="lazyload" loading="lazy" src="https://i.imgur.com/V5mbKzM.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/OOxHXDp"><img class="lazyload" loading="lazy" src="https://i.imgur.com/OOxHXDp.jpg" title="source: imgur.com" /></a><span class="image-caption">Núi non trùng điệp</span><br><p></p><br><a href="https://imgur.com/ZVFOpix"><img class="lazyload" loading="lazy" src="https://i.imgur.com/ZVFOpix.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/gJrKiC9"><img class="lazyload" loading="lazy" src="https://i.imgur.com/gJrKiC9.jpg" title="source: imgur.com" /></a></div>
 <p>Đây là lần thứ 2 kể từ lần đi Tam Cốc, mình ngồi lênh đênh lâu tới vậy.</p>
-<div class="content" style="text-align:center; "><a href="https://imgur.com/Gp3zjfd"><img class="lazyload" loading="lazy" src="https://i.imgur.com/Gp3zjfd.jpg" title="source: imgur.com" /></a><span class="image-caption">Ở đây đẹp nhất vẫn là cái đền nổi giữa sông (quên tên mất rồi ^^)</span></div><div class="content" style="text-align:center; "><a href="https://imgur.com/F8GJhGA"><img class="lazyload" loading="lazy" src="https://i.imgur.com/F8GJhGA.jpg" title="source: imgur.com" /></a><span class="image-caption">đừng bỏ lỡ nơi này để checkin nhé các bạn.</span></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/Gp3zjfd"><img class="lazyload" loading="lazy" src="https://i.imgur.com/Gp3zjfd.jpg" title="source: imgur.com" /></a><span class="image-caption">Ở đây đẹp nhất vẫn là cái đền nổi giữa sông (quên tên mất rồi ^^)</span></div><div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/F8GJhGA"><img class="lazyload" loading="lazy" src="https://i.imgur.com/F8GJhGA.jpg" title="source: imgur.com" /></a><span class="image-caption">đừng bỏ lỡ nơi này để checkin nhé các bạn.</span></div>
 
 <p style="text-align:center; ">
 <picture>
@@ -80,7 +80,7 @@ Ngồi thuyền hơn 3 tiếng đồng hồ bạn sẽ được người chèo �
 
 Mình đã ngồi thuyền trôi theo dòng nước để khám khám phá cảnh sắc không khác gì thiên nhiên hoang sơ thời tiền sử.
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/wZtNeRj"><img class="lazyload" loading="lazy" src="https://i.imgur.com/wZtNeRj.jpg" title="source: imgur.com" /></a><span class="image-caption">Trong động rất mát, mùa mưa, nước lên cao sẽ không thể vào được.</span><br><a href="https://imgur.com/bSR4FUI"><img class="lazyload" loading="lazy" src="https://i.imgur.com/bSR4FUI.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/n0TO9By"><img class="lazyload" loading="lazy" src="https://i.imgur.com/n0TO9By.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/4z5VWyh"><img class="lazyload" loading="lazy" src="https://i.imgur.com/4z5VWyh.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Người cùng đoàn</span><br>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/wZtNeRj"><img class="lazyload" loading="lazy" src="https://i.imgur.com/wZtNeRj.jpg" title="source: imgur.com" /></a><span class="image-caption">Trong động rất mát, mùa mưa, nước lên cao sẽ không thể vào được.</span><br><a href="https://imgur.com/bSR4FUI"><img class="lazyload" loading="lazy" src="https://i.imgur.com/bSR4FUI.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/n0TO9By"><img class="lazyload" loading="lazy" src="https://i.imgur.com/n0TO9By.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/4z5VWyh"><img class="lazyload" loading="lazy" src="https://i.imgur.com/4z5VWyh.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Người cùng đoàn</span><br>
 <a href="https://imgur.com/DruIveP"><img class="lazyload" loading="lazy" src="https://i.imgur.com/DruIveP.jpg" title="source: imgur.com" /></a><span class="image-caption">Tổng cộng có 3 đền, nhưng do vấn đề thời gian, mình chỉ đi được có 2.</span><a href="https://imgur.com/EjNjNyB"><img class="lazyload" loading="lazy" src="https://i.imgur.com/EjNjNyB.png" title="source: imgur.com" /></a><span class="image-caption">Vặn vẹo cái nào. Cô thuyền trưởng lại réo rồi</span><br><a href="https://imgur.com/8EcJ56Q"><img class="lazyload" loading="lazy" src="https://i.imgur.com/8EcJ56Q.jpg" title="source: imgur.com" /></a><span class="image-caption">Trời cb xế chiều, những con thuyền đi dưới nắng dát vàng và bạn đen sì :D</span><br><a href="https://imgur.com/EPQ3CRe"><img class="lazyload" loading="lazy" src="https://i.imgur.com/EPQ3CRe.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
 
 ### Bái đính
@@ -90,9 +90,9 @@ Cách trung tâm hơn 15km về phía Đông, chùa BĐ mang một cái gì đó
 
 > Bái đính - 1 Tam Chúc lặng lẽ.
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/rAQn7Rq"><img class="lazyload" loading="lazy" src="https://i.imgur.com/rAQn7Rq.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Vì nó quá rộng, nếu ko có trợ giúp của xe điện. Bạn phải lết bộ hơn 6km để đi hết đc chùa, wow ... ấn tượng đúng ko nào. (Một lưu ý nhỏ là nhớ đi xe điện nhé các bạn, 60k thôi nhưng tiết kiệm cho các bạn khá nhiều thời gian đấy ^^).</span></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/rAQn7Rq"><img class="lazyload" loading="lazy" src="https://i.imgur.com/rAQn7Rq.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Vì nó quá rộng, nếu ko có trợ giúp của xe điện. Bạn phải lết bộ hơn 6km để đi hết đc chùa, wow ... ấn tượng đúng ko nào. (Một lưu ý nhỏ là nhớ đi xe điện nhé các bạn, 60k thôi nhưng tiết kiệm cho các bạn khá nhiều thời gian đấy ^^).</span></div>
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
   <a href="https://imgur.com/5Ju0uwx"><img class="lazyload" loading="lazy" src="https://i.imgur.com/5Ju0uwx.jpg" title="source: imgur.com" /></a><br><br><a
     href="https://imgur.com/PjXUnZo"><img class="lazyload" loading="lazy" src="https://i.imgur.com/PjXUnZo.jpg" title="source: imgur.com" /></a><br><br><a
     href="https://imgur.com/963jK4u"><img class="lazyload" loading="lazy" src="https://i.imgur.com/963jK4u.jpg"
@@ -110,7 +110,7 @@ Cách trung tâm hơn 15km về phía Đông, chùa BĐ mang một cái gì đó
 <blockquote>Hoa Lư là kinh đô đầu tiên của nhà nước phong kiến Trung ương tập quyền ở Việt Nam với các dấu ấn lịch sử:
   thống nhất giang sơn, đánh Tống - dẹp Chiêm... - Wikipedia tiếng Việt
 </blockquote>
-<div class="content" style="text-align:center; "><a href="https://imgur.com/GliVusm"><img class="lazyload" loading="lazy"
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/GliVusm"><img class="lazyload" loading="lazy"
       src="https://i.imgur.com/GliVusm.jpg" title="source: imgur.com" /></a><br><span class="image-caption">Bọn nhóc
     cùng đoàn khá phấn khích</span><br><a href="https://imgur.com/LMqQWov"><img class="lazyload" loading="lazy" src="https://i.imgur.com/LMqQWov.jpg"
       title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/vtMnMri"><img class="lazyload" loading="lazy"
@@ -152,7 +152,7 @@ Cách trung tâm hơn 15km về phía Đông, chùa BĐ mang một cái gì đó
 
 <blockquote>Chùa Bích Động là một ngôi chùa cổ được xây dựng trên dãy núi đá vôi Trường Yên thuộc xã Ninh Hải, huyện Hoa Lư tỉnh Ninh Bình. Đây là một di tích lịch sử văn hóa thuộc Quần thể danh thắng Tràng An Tam Cốc - Bích Động đã được xếp hạng di tích quốc gia đặc biệt và UNESCO công nhận là di sản thế giới.- Wikipedia tiếng Việt.
 </blockquote>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/A9aDZNh"><img class="lazyload" loading="lazy" src="https://i.imgur.com/A9aDZNh.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/nYz62g6"><img class="lazyload" loading="lazy" src="https://i.imgur.com/nYz62g6.jpg" title="source: imgur.com" /></a><br><span
     class="image-caption">Chùa rất gần homestay của mình, nên mình quyết định mượn luôn xe của họ.</span><br>
   <a href="https://imgur.com/PVrPtBp"><img class="lazyload" loading="lazy" src="https://i.imgur.com/PVrPtBp.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/FH7XrmR"><img class="lazyload" loading="lazy" src="https://i.imgur.com/FH7XrmR.jpg" title="source: imgur.com" /></a><br><p></p><br><a
@@ -168,20 +168,20 @@ Cách trung tâm hơn 15km về phía Đông, chùa BĐ mang một cái gì đó
 
 Lần đầu nhìn ảnh trên instagram khá ấn tượng với cái hang này, cũng chính hang Múa mình mới quyết định đến NB. Mình nghĩ đã đi đến NB rồi thì khó ai có thể bỏ lỡ địa điểm này. Hang múa đây người ta xây bậc thang, nhìn bề ngoài mình có cảm giác như Vạn Lý Trường Thành thu nhỏ vậy, rất đẹp. Mình leo lên khát nước gần chết ^^ - các bạn nên mang bình nước 2l đi nhé.
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/kC8dN84"><img class="lazyload" loading="lazy" src="https://i.imgur.com/kC8dN84.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/kC8dN84"><img class="lazyload" loading="lazy" src="https://i.imgur.com/kC8dN84.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/8IxrEai"><img class="lazyload" loading="lazy" src="https://i.imgur.com/8IxrEai.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/8IxrEai"><img class="lazyload" loading="lazy" src="https://i.imgur.com/8IxrEai.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/kqHbI7k"><img class="lazyload" loading="lazy" src="https://i.imgur.com/kqHbI7k.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/kqHbI7k"><img class="lazyload" loading="lazy" src="https://i.imgur.com/kqHbI7k.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/ICT0reW"><img class="lazyload" loading="lazy" src="https://i.imgur.com/ICT0reW.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/ICT0reW"><img class="lazyload" loading="lazy" src="https://i.imgur.com/ICT0reW.jpg" title="source: imgur.com" /></a><br><p></p><br></div>
 
 ### Tuyệt Tịnh Cốc
 
 Nhớ là **"Tịnh"** chứ ko phải là "Tình" nhé các bạn. Lúc đến nơi mình mới ngỡ ngàng cái tên sao nghe lạ quá, he he ... Nằm ở gần khu Tràng An, đường đi cũng khá gần và dễ. Khu này chỉ một cái hồ và bao quanh và nước trong rất xanh. Mình vẫn thích nhất dưới hồ toàn cá bơi, ... nhìn rất là thú vị.
 Tranh thủ trước khi hoàng hôn thì bon chen vô tuyệt tình cốc chụp. Và đạp xe ở đây rất chill nha.
 
-<div class="content" style="text-align:center; "><a href="https://imgur.com/3bsccP1"><img class="lazyload" loading="lazy" src="https://i.imgur.com/3bsccP1.jpg" title="source: imgur.com" /></a><br><span
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/3bsccP1"><img class="lazyload" loading="lazy" src="https://i.imgur.com/3bsccP1.jpg" title="source: imgur.com" /></a><br><span
     class="image-caption">Tuyệt Tình Cốc Ninh Bình Có Gì Mà Khiến Nhiều Người Mê Mệt?</span><br>
 <a href="https://imgur.com/swoh4H9"><img class="lazyload" loading="lazy" src="https://i.imgur.com/swoh4H9.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/m6xEF63"><img class="lazyload" loading="lazy" src="https://i.imgur.com/m6xEF63.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/gYeyMsJ"><img class="lazyload" loading="lazy" src="https://i.imgur.com/gYeyMsJ.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/lFl8JIV"><img class="lazyload" loading="lazy" src="https://i.imgur.com/lFl8JIV.jpg" title="source: imgur.com" /></a><br><p></p><br><a href="https://imgur.com/FgmVxRU"><img class="lazyload" loading="lazy" src="https://i.imgur.com/FgmVxRU.jpg" title="source: imgur.com" /></a><br><p></p><br><span
     class="image-caption">Cá đâu ra nhiều thế, thịt cá :></span>

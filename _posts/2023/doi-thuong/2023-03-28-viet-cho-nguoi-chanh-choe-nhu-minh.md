@@ -29,7 +29,7 @@ Các quốc gia phải liên kết chặt chẽ hơn và phải tìm cách hợp
 > Mình là một người chảnh chọe, mình là một người khó gần - Mình một mình.
 
 <div style="left: 0; width: 100%; height: 80px; position: relative;"><iframe src="https://open.spotify.com/embed/track/1h3OGp2njFR0qLyt7nMLnp?utm_source=oembed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;"></iframe></div><br>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img data-src="../../assets/images/2023/ngam/meo-chanh-choe.webp" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">suốt ngày đeo tai nghe chẳng màng ai nói gì!!!</span></div>
 
 Mình chậm nhiệt - làm bạn với một ồng Mr. Logic từ bé. Khi người khác cười, mình phải hỏi Mr. Logic mãi ổng mới cho mình mới biết sao cười và lý do tại sao mình nên bắt chước họ. Người khác khóc, lại cũng phải qua ổng mình mới phân tích sao họ khóc và mình hay làm mặt lạnh tanh kiểu vô cảm - "Sao mà yếu đuối thế".
@@ -63,7 +63,7 @@ Vì không biết thứ mình thích và cũng chằng biết sở trường c�
 Đại học, có lẽ vớt vát vào đại học Thăng Long, một con gà công nghiệp, hồi đó có một ông anh họ thi cùng mình, ông ấy cấp 2 -> cấp 3 thì thua mình, nhưng ổng thi đỗ đại học Bách Khoa. Cái tôi trẻ con của mình lại rỉ máu. Lại vào trường có người nhà, thoạt đầu nó đi đúng mẫu số, mô típ thời cấp 3 của mình. Mình cũng lại 1 lần nghe theo bố đi theo chuyên ngành mà mình chả quan tâm. Vô định, mình tăng cân lần gần 80kg, da đen, xù sì ngồi một góc chơi game. Nhưng thật may mắn, khi vào ngôi trường này, mình đã có những người bạn nhạt toẹt mà mình chơi tới tận bây giờ :3
 
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img data-src="../../assets/images/2023/ngam/lop-dai-hoc.webp" class=" lazyload img-thumb lazyimg " /><br></div>
 
 Cuộc sống bắt đầu tốt đẹp hơn sau câu nói của mẹ mình "Bụng mày sắp to bằng bác rồi đấy." Thế là mình vào một đợt điên cuồng tập thể giục, ăn kiêng kem, tính calo giảm cân. Mình sắp ra một series về ăn uống, dinh dưỡng và chạy bộ, lấy cảm hứng từ "Enzym diệu kỳ" và "Tôi nói gì khi tôi chạy bộ". Các bạn nhớ đón đọc nhé. Đại thể là một chân trời mới về lý do tại sao mình hồi xưa uống sữa milo rất hay đi ngoài, da mình già rất nhanh hơn bạn bè đồng trang lứa,... Rồi quá trình đi hiến máu, về chỉ ăn một mớ rau, một khoai tây và 1 xúc xích mỗi ngày.
@@ -82,12 +82,12 @@ Thật sự mình rất muốn cám ơn một người bạn, thật sự bạn 
 
 Mình tin là các bạn đọc đến tận bây giờ thấy ôi sao lại trẻ con thế, phải nghĩ lớn lao này nọ kia. Nhưng mình xin lỗi, mình không làm được. Giờ mình đã nhớ nhớ quên quên, ký ức nhạt nhòa trong mình. Mình cũng thấy nó khá là ấu trĩ. Nhưng tôi và bạn của ngày đó, biết gì???
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img data-src="../../assets/images/2023/ngam/sinh-nhat-25-san-sang.webp" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">Tuy mình giờ vẫn run, nhưng mình tin mình đã không còn một mình</span></div>
 
 Gần đây mình có xem một bộ phim là "Everything Everywhere All At Once". Và một lần nữa, nó lại ấn vào trong mình ký ức về thời thơ ấu - những câu nói khác gì bạo hành con trẻ. Kiệm lời yêu thương của nhân dân Á đông. Mình viết lại, bộc bạch lại những gì đã xảy ra với mình xưa kia, vốn dĩ chẳng phải than phiền, trách móc ai cả. Mình viết để nhắc lại những sai lầm đó, phân tích nguyên dân kết quả để sau này mình và bạn sẽ không gặp phải sai lầm. Mỗi một câu nói trách móc của bạn, liệu có tạo ra hiệu ứng cánh bướm gây sục đổ cả một khu rừng. Mỗi một lời khen ngợi, một tiếng cười bạn trao cho một cô hàng đang thu rác trước cổng nhà bạn, hôm đó 40 độ C, "Có mát hơn không??"
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img data-src="../../assets/images/2023/ngam/tu-te-voi-nguoi-khac.webp" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">“Hãy tử tế với người khác, dù cho đang ở trong hoàn cảnh nào” – WAYMOND WANG</span></div>
 
 > Loài vịt có thể bơi, bay, đi bộ => giống loài ưu việt. Nhưng mỗi khi đi bộ, vịt có thể rất đau. Và chúng cũng chẳng có số má gì trong công cuộc bay lượn.

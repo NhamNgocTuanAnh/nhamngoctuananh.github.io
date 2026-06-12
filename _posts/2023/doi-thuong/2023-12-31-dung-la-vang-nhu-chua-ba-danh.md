@@ -34,7 +34,7 @@ Sau một chuyến thăm thú Làng cổ đường lâm, vào một ngày 
 
 {% include post-by-url.html post_src="du-lich/lang-co-duong-lam-nay-da-khac-xua" %}
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img  src="https://i.imgur.com/rLMSbg5.jpeg" title="source: imgur.com" /><br><p></p>
 </div>
 
@@ -61,7 +61,7 @@ Chùa được xây dựng từ thời nhà Lý, là một trong những ngôi c
 
 Từ Hà Nội, bạn chỉ cần đi xe máy theo quốc lộ 1A khoảng 1 giờ đồng hồ.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img class="lazyload" loading="lazy" src="https://i.imgur.com/Rh5blI3.jpg" title="Chùa Bà Đanh" /><p>Chùa Bà Đanh nằm trên một ngọn núi nhỏ, xung quanh là những cánh đồng lúa xanh mướt. Chúng mình gửi xe máy ở cổng chùa, sau đó bắt đầu đi vào tham quan.</p><img class="lazyload" loading="lazy" src="https://i.imgur.com/v0Pg0B2.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/LwHuqkJ.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/q1gReyC.jpg" title="Chùa Bà Đanh" />
 <br><p></p>
 <img class="lazyload" loading="lazy" src="https://i.imgur.com/NGHzluD.jpg" title="Chùa Bà Đanh" />
@@ -84,13 +84,13 @@ Từ Hà Nội, bạn chỉ cần đi xe máy theo quốc lộ 1A khoảng 1 gi
 
 Mình đã chọn chụp ảnh ở nhiều góc khác nhau trong khuôn viên chùa.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img class="lazyload" loading="lazy" src="https://i.imgur.com/1rmTv33.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/b4qDcG9.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/YLRXTpg.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/GdVHD7q.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/6WxFDNQ.jpg" title="Chùa Bà Đanh" /><br><p>Từ hồ nước trong xanh, bên dưới tượng Phật Bà Quan Âm đến trên đỉnh núi Ngọc.</p><img class="lazyload" loading="lazy" src="https://i.imgur.com/yCk02nz.jpg" title="Chùa Bà Đanh" /><br><p></p><img class="lazyload" loading="lazy" src="https://i.imgur.com/P4o4W78.jpg" title="Chùa Bà Đanh" /><br><p>ánh sáng hài hòa</p><img class="lazyload" loading="lazy" src="https://i.imgur.com/tabmtlM.jpg" title="Chùa Bà Đanh" /><br><p>và không có sự sô bồ của tiktoker</p>
 </div>
 
 Thế là hết một năm rồi đấy mấy ông ạ, chúc mấy ông năm sau vạn sự như ý. Sang năm mới nhớ truy cập kênh của chúng tôi để có thêm nhiều bài viết hấp dẫn nhé <3 <3
 
-<div class="content" style="text-align:center; "><img class="lazyload" loading="lazy" src="https://i.imgur.com/MdDhVIu.jpg" title="Chùa Bà Đanh" /><br><p></p></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><img class="lazyload" loading="lazy" src="https://i.imgur.com/MdDhVIu.jpg" title="Chùa Bà Đanh" /><br><p></p></div>
 
 Một số lưu ý khi chụp ảnh áo dài Tết ở chùa Bà Đanh:
 

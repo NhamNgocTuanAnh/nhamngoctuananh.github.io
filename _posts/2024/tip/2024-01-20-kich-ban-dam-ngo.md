@@ -32,7 +32,7 @@ Lễ dạm ngõ không chỉ thể hiện sự tôn trọng giữa hai gia đìn
 
 #### **2\. Kịch bản chi tiết lễ dạm ngõ**
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
   <a href="https://i.imgur.com/CyvnrVL"><img class="lazyload" loading="lazy" src="https://i.imgur.com/CyvnrVL.png" title="source: imgur.com" /></a></div>
 <div class="my-container"> <div class="button"> <input type="radio" class="radio"> <a class="download">Tải xuống kịch bản</a> <a class="open" href="https://docs.google.com/document/d/1VHa6eC3TyYa1uGoIjHBTc-ye9q4Su3I8ORBE2XPHMJo/edit?usp=sharing">Dạm Ngõ - Minh Thể Media</a> </div></div><style>.my-container { font-family: 'Poppins', sans-serif; display: flex; flex-wrap: wrap; align-items: center; margin: 0; padding: 0; background: #7c0fd1; text-align: center;
 }
@@ -96,7 +96,7 @@ Lễ dạm ngõ không chỉ thể hiện sự tôn trọng giữa hai gia đìn
 *   Chú rể đi đầu, sau đó là bố mẹ và người thân.
 *   Nhà gái mời khách ngồi theo thứ tự: người lớn tuổi ngồi ghế trên, chú rể ngồi cạnh cô dâu.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://i.imgur.com/ZXBbCI3.png" title="source: anhhangxomh.xyz" alt="Thêm color profile"><br><p>Ảnh được chia sẻ bởi <a href="https://www.facebook.com/nntatlu">anhhangxom</a></p></div>
 
 

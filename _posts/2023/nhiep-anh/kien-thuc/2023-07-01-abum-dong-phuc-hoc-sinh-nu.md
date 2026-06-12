@@ -26,7 +26,7 @@ Bộ Ảnh dưới đây mình chụp vào những ngày đầu tháng 5, nắng
 
 Bộ này mình blend tạo cảm giác mát mẻ cho mùa hè đầy oi bức.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/UaP5BJi"><img src="https://i.imgur.com/UaP5BJi.jpg" title="source: imgur.com" /></a>
 </div><br>
 
@@ -40,22 +40,22 @@ Bộ này mình blend tạo cảm giác mát mẻ cho mùa hè đầy oi bức.
 Buổi chụp thực sự bắt đầu chụp từ 5h chiều, có hoàng hôn nên ánh sáng khá đẹp.
 Các bạn có thể xem một số cách tạo dáng gợi ý ở dưới dây để có cho mình những bộ hình với đồng phục ưng ý nhé.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/XpNo87K"><img src="https://i.imgur.com/XpNo87K.jpg" title="source: imgur.com" /></a><br>Cứ vờ như không nhìn người ta, thực ra là lúc nào cũng nhìn trộm
 </div><br>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/7VnZq4J"><img src="https://i.imgur.com/7VnZq4J.jpg" title="source: imgur.com" /></a><br>Chúng ta sẽ vì một câu nói vu vơ của người ấy mà vui mừng không ngớt.
 </div><br>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/YKJ3w87"><img src="https://i.imgur.com/YKJ3w87.jpg" title="source: imgur.com" /></a><br>Kí ức tuổi thanh xuân là kho báu quý giá nhất và mãi được lưu giữ trong mỗi chúng ta.
 </div><br>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <a href="https://imgur.com/aNLUrmu"><img src="https://i.imgur.com/aNLUrmu.jpg" title="source: imgur.com" /></a><br>Nếu có bản án dành cho Tớ vì đã yêu cậu thì tớ xin đứng trước toà và nhận bản án chung thân được bên cậu suốt đời.
 </div><br>
 
 Nếu bạn yêu thích chụp hình với đồng phục học sinh nhật bản thì liên hệ với tụi mình để có được những bộ ảnh ưng ý nha.
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=691513717810524590" height="473" width="236" frameborder="0" scrolling="no" ></iframe>
 </div>
 

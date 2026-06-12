@@ -30,7 +30,7 @@ pinned: true
 ### Tại sao màu sắc của Sony và Canon lại khác nhau?
 
 <br>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://i.imgur.com/kyS92wJ.jpeg" title="source: photofleem.com" alt="ảnh được trích dẫn từ photofleem.com"><br><p>ảnh được trích dẫn từ photofleem.com <a href="https://photofleem.com/2020/lightroom-profile-color-portrait-for-sony">Sơn</a></p></div>
 
 Màu sắc của Sony và Canon có sự khác biệt lớn, xuất phát từ:
@@ -44,7 +44,7 @@ Màu sắc của Sony và Canon có sự khác biệt lớn, xuất phát từ:
 #### 1\. Điều chỉnh trong máy ảnh Sony
 
 <br>
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://live.staticflickr.com/65535/50235968677_9d8b33d548_o.jpg" title="source: photofleem.com" alt="ảnh được trích dẫn từ photofleem.com"><br><p>ảnh được trích dẫn từ photofleem.com <a href="https://photofleem.com/2020/lightroom-profile-color-portrait-for-sony">photofleem.com</a></p></div>
 
 *   **Picture Profile**: Tùy chỉnh các thông số như độ tương phản, bão hòa và sắc độ.
@@ -116,7 +116,7 @@ Một lần nữa xin cám ơn tác giả [_Photofleem_](https://photofleem.com/
 
 ### Cách sử dụng Profile:
 
-<div class="content" style="text-align:center; ">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://i.imgur.com/HPyqxMP.png" title="source: anhhangxomh.xyz" alt="Thêm color profile"><br><p>Ảnh được chia sẻ bởi <a href="https://www.facebook.com/nntatlu">anhhangxom</a></p></div>
 
 #### lưu ý make up
