@@ -52,6 +52,13 @@ E-PL1s là bản nâng cấp nhẹ của E-PL1. Trái tim của nó vẫn là c�
 <img class="lazyload" loading="lazy" data-src="https://lh3.googleusercontent.com/pw/AP1GczMivxASNdwLc747zCwxm08SB8ZxcFVFrFj5jjcdtKcRfHd8IoqHD85wCt-t2rt8KxlaaoewRTYf-UI98_FERJjWllbWJxU3YpfNmzEJMFUmIzlzrj0h=w2400" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">OLYMPUS IMAGING CORP. E-PL1s || 1/800 || ISO200</span></div>
 
 1.  **Màu JPEG Cực Kỳ Đẹp:** Đây là lý do máy vẫn được săn lùng. Da người hơi vàng nhẹ, xanh lá dịu, bầu trời xanh đậm, vùng highlight chuyển mềm. Olympus xử lý ảnh mang lại cảm giác "film" thực thụ chứ không phải cố gồng mình giả lập film. Contrast, Saturation và Sharpen ra khỏi máy cực kỳ tự nhiên, up Instagram được luôn.
+
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 70%;">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/minami/4407662014/in/album-72157623428790637/" title="Plum flowers with Olympus Blue sky back"><img src="https://live.staticflickr.com/4038/4407662014_f0ec3c26ef_b.jpg" width="1024" height="768" alt="Plum flowers with Olympus Blue sky back"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><span class="image-caption">OLYMPUS IMAGING CORP. E-PL1s || ƒ/9.0
+42.0 mm ||
+1/250 ||
+ISO200 </span></div>
+
 2.  **Noise Rất Đẹp:** ISO 200-400-800 cho ra hạt nhiễu (grain) cực đẹp. ISO 1600 vẫn dùng tốt. ISO 3200 bắt đầu bệt và 6400 chỉ để chữa cháy.
 3.  **Dynamic Range (DR) Thấp:** Yếu điểm chí mạng nhưng lại là chất xúc tác nghệ thuật. DR thấp đồng nghĩa nếu cháy trời là không thể cứu. Nhưng nếu đo sáng chuẩn ngay từ đầu (Expose to the right vừa phải), ảnh sẽ tuyệt đẹp. Người dùng máy này bắt buộc phải đo sáng cẩn thận và không lạm dụng kéo RAW.
 4.  **Art Filter Cổ Điển:** Olympus làm filter rất nghiêm túc. Các bộ lọc như _Grainy Film, Dramatic Tone, Soft Focus, Pale Light_ đến nay vẫn mang lại hiệu ứng thị giác tuyệt vời.
