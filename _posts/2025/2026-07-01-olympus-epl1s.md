@@ -7,7 +7,7 @@ categories:
 - "Reviews \U0001F4DD"
 tags:
 - nhiếp ảnh
-image: https://i.ytimg.com/vi/5dDSnbkAD4c/maxresdefault.jpg
+image: assets/images/2025/review-olympus-epl1s.webp
 rating: 5
 isGithubComments: false
 permalink: reviews/2026-06-29-olympus-epl1s-review
@@ -47,6 +47,9 @@ E-PL1s là bản nâng cấp nhẹ của E-PL1. Trái tim của nó vẫn là c�
 *   Kỳ vọng một màn hình xuất sắc (màn hình E-PL1s chỉ 230k dots, khá mờ và khó nhìn dưới nắng gắt).
 
 ### Linh hồn của E-PL1s: Màu sắc và Cảm biến
+
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<img class="lazyload" loading="lazy" data-src="https://photos.app.goo.gl/vML7ytuHRiu93TDL6" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">OLYMPUS IMAGING CORP. E-PL1s || 1/800 || ISO200</span></div>
 
 1.  **Màu JPEG Cực Kỳ Đẹp:** Đây là lý do máy vẫn được săn lùng. Da người hơi vàng nhẹ, xanh lá dịu, bầu trời xanh đậm, vùng highlight chuyển mềm. Olympus xử lý ảnh mang lại cảm giác "film" thực thụ chứ không phải cố gồng mình giả lập film. Contrast, Saturation và Sharpen ra khỏi máy cực kỳ tự nhiên, up Instagram được luôn.
 2.  **Noise Rất Đẹp:** ISO 200-400-800 cho ra hạt nhiễu (grain) cực đẹp. ISO 1600 vẫn dùng tốt. ISO 3200 bắt đầu bệt và 6400 chỉ để chữa cháy.
