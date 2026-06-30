@@ -7,7 +7,7 @@ categories:
 - "Reviews \U0001F4DD"
 tags:
 - nhiếp ảnh
-image: _site/assets/images/2025/review-olympus-epl1s.webp
+image: assets/images/2025/review-olympus-epl1s.webp
 rating: 5
 isGithubComments: false
 permalink: reviews/2026-06-29-olympus-epl1s-review
