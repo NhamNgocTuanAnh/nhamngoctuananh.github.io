@@ -78,7 +78,7 @@ Nhưng nhớ nhé, preset chỉ là bước đầu tiên! Hãy chỉnh sửa th�
 
 Mùa thu Hà Nội đẹp đến nao lòng, hãy sáng tạo và lưu giữ từng khoảnh khắc tinh tế nhất!
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/UpZ4cZq"><img loading="lazy" src="https://i.imgur.com/UpZ4cZq.jpeg" title="source: imgur.com" /></a></div>
 
 **Cách sử dụng preset Lightroom**
@@ -97,14 +97,14 @@ Preset sẽ được áp dụng cho ảnh của bạn. Bạn có thể điều c
 
 **Một số ảnh Lightroom đẹp**
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/V1Dakkv"><img loading="lazy" src="https://i.imgur.com/V1Dakkv.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/n1aJ50o"><img loading="lazy" src="https://i.imgur.com/n1aJ50o.png" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/PUJtfYG"><img loading="lazy" src="https://i.imgur.com/PUJtfYG.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/qHvr4Cb"><img loading="lazy" src="https://i.imgur.com/qHvr4Cb.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/DUfuILk"><img loading="lazy" src="https://i.imgur.com/DUfuILk.png" title="source: imgur.com" /></a><p></p><br></div>
 
 **Mô tả preset Lightroom**
 
 Ảnh gốc mình chụp bằng Canon eos M vào 1 ngày trời xuân Hà Nội. Sử dụng ống nikkor 85mm f2 ais. Đây là một ống kính khá đẹp, trong.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://i.imgur.com/gIW70OI"><img loading="lazy" src="https://i.imgur.com/gIW70OI.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/rQvAjgn"><img loading="lazy" src="https://i.imgur.com/rQvAjgn.jpeg" title="source: imgur.com" /></a><p></p><br></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;"><a href="https://i.imgur.com/gIW70OI"><img loading="lazy" src="https://i.imgur.com/gIW70OI.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/rQvAjgn"><img loading="lazy" src="https://i.imgur.com/rQvAjgn.jpeg" title="source: imgur.com" /></a><p></p><br></div>
 
 Preset Lightroom  bao gồm các cài đặt sau:
 
@@ -123,7 +123,7 @@ Khi sử dụng preset chụp ảnh, bạn cần lưu ý một số điều sau:
 
 **Kết luận**
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://i.imgur.com/WKcs6a3"><img loading="lazy" src="https://i.imgur.com/WKcs6a3.jpeg" title="source: imgur.com" /></a></div>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;"><a href="https://i.imgur.com/WKcs6a3"><img loading="lazy" src="https://i.imgur.com/WKcs6a3.jpeg" title="source: imgur.com" /></a></div>
 
 Preset Lightroom  sẽ giúp bạn tạo ra những bức ảnh  đẹp và chuyên nghiệp.
 

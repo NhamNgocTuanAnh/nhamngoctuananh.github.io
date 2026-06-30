@@ -63,7 +63,7 @@ pinned: true
 
 Hôm nọ mình có bon chen hồ Hoàng Cầu cũng như công viên thống nhất thử, nhưng xem ra khá vất vả. Nên mình đã mò ra một nơi @Anh hàng xóm và chỉnh mầu cho tone nhẹ nhàng, màu rực hơn vì chụp ngược sáng màu nhạt. #chupanhdep #lightroom #banglangtim @anhhangxom.foto
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/UpZ4cZq"><img loading="lazy" src="https://i.imgur.com/lXRN6cC.jpeg" title="source: imgur.com" /></a></div>
 
 **Cách sử dụng preset Lightroom**
@@ -84,7 +84,7 @@ Preset sẽ được áp dụng cho ảnh của bạn. Bạn có thể điều c
 
 **Một số ảnh Lightroom đẹp**
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/V1Dakkv"><img loading="lazy" src="https://i.imgur.com/IRgyDxC.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/n1aJ50o"><img loading="lazy" src="https://i.imgur.com/lwnd5eF.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/PUJtfYG"><img loading="lazy" src="https://i.imgur.com/Fs8ifav.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/qHvr4Cb"><img loading="lazy" src="https://i.imgur.com/IL3HhZQ.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://i.imgur.com/DUfuILk"><img loading="lazy" src="https://i.imgur.com/rggnrhO.jpeg" title="source: imgur.com" /></a><p></p><br></div>
 
 **Mô tả preset Lightroom**

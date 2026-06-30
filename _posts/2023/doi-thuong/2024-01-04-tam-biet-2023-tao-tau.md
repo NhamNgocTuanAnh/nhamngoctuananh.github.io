@@ -32,14 +32,14 @@ dương nên là… mình rất thích,
 chyến đi cực kỳ ưng đối với mình,
 so với số tiền mình bỏ ra thì mình thấy mình nhận được nhiều hơn là mất.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/eg4l912"><img src="https://i.imgur.com/eg4l912.png" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/PJO2j11"><img src="https://i.imgur.com/PJO2j11.jpg" title="source: imgur.com" /></a><br><p></p><img src="https://i.imgur.com/CgeScvw.jpg" title="source: imgur.com" /></div>
 
 Ở gần khách sạn chỗ mình thuê, có một cái chợ đêm, nên mình cũng ngó qua một chút.\\
 Người đông, nhiều món ăn, tấp nập
 và nhiều ngôn ngữ, nơi đây cũng có khà nhiều khách Nga và Hàn Quốc.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/o010Q0a"><img src="https://i.imgur.com/o010Q0a.jpg" title="source: imgur.com" /></a></div>
 
 Tiếp theo đó mình bắt đầu nhận một CR mới của dự án, bắt đầu công việc của mình một cách bình thường,
@@ -50,7 +50,7 @@ ngày và cảm thấy bản thân cần cải thiện nhiều cái, nên vẫn 
 </article>
 
 <aside id="aside" markdown=1>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img src="https://i.imgur.com/d4I6gQL.jpg" title="source: imgur.com" /></div>
 
 Giữa tháng 6, những cơn mưa như nặng hạt hơn, khi mà ve đã kêu âm ỉ, không khí trở nên oi bức hơn,
@@ -63,9 +63,9 @@ rồi đi thả diều từ 3h chiều, nắng vỡ đầu nhưng vẫn đi… t
 Tiếng mở cổng dưới tầng 1 kéo mình về thực tại với âm thanh gào rú của quạt tản nhiệt laptop.
 Đêm cũng là thời gian thích hợp để tâm hồn của mình được làm dịu nhẹ sau một ngày dài mệt mỏi.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/NHYgfdu"><img src="https://i.imgur.com/NHYgfdu.png" title="source: imgur.com" /></a></div><hr><p>Đã hơn 3h sáng nhưng mình chưa ngủ được, chả nghĩ ngợi gì cả đâu, mình vẫn ngồi trên bàn, đeo tai nghe để âm thanh và màn đêm dẫn lối mình tới nơi cảm xúc rơi nhẹ nhàng và chậm rãi.</p>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img loading="lazy" src="https://i.imgur.com/3wEAMXm.jpeg" title="đơn độc" /></div>
 
 Sau đó vì chưa có dự án làm nên mình sang dự án khác để hỗ trợ, ngồi ở chỗ khách hàng.
@@ -76,7 +76,7 @@ hoặc 2 tuần chưa đủ với bản thân mình để làm quen với không
 không phù hợp với môi trường đó lắm. Sau đó dự án cũ cần người, nên mình được chuyển về dự án cữ,
 vào lúc này thời tiết cũng trở nên mát hơn, những cơn mưa giảm dần về cường độ và những bông hoa dần trở thắm tươi hơn.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/y1C4g5O"><img src="https://i.imgur.com/y1C4g5O.png" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/o4wdlsX"><img src="https://i.imgur.com/o4wdlsX.jpg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/Nnd87CR"><img src="https://i.imgur.com/Nnd87CR.jpg" title="source: imgur.com" /></a></div>
 
 Cuối đông tưởng chừng như sẽ rất lạnh, nhưng thời tiết lại hoàn toàn trái ngược. Ảnh hưởng
@@ -89,7 +89,7 @@ hối hả để cuối năm bánh trưng có”thịt”, hối hả để chu�
 Hàng quán cuối năm sẽ tấp nập hơn, mọi người chuẩn bị cho tết,
 người con xa quê thì lên kế hoạch về quê, mua vé tàu, vé xe ô tô để không bị lỡ.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/uCtzrpx"><img src="https://i.imgur.com/uCtzrpx.png" title="source: imgur.com" /></a></div>
 
 Còn những ngày cuối năm, dường như mình đã không còn cảm thấy buồn nữa, vì trái tim lúc này đã hướng về quê hương.\\
@@ -97,6 +97,6 @@ Còn mấy ngày nữa thôi là sang năm mới rồi, còn chuyện gì chưa 
 mình biết bạn chưa hề bỏ cuộc, luôn lỗ lực, chẳng qua may mắn chưa mỉm cười với bạn thôi,
 chuẩn bị hành trang về với gia đình thôi, tất cả mọi phiền lo của năm cũ, bỏ qua một bên nha, còn bây giờ thì về nhà ăn tết thôi.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/WfIZk51"><img src="https://i.imgur.com/WfIZk51.png" title="source: imgur.com" /></a></div>
 </aside>

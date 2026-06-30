@@ -42,7 +42,7 @@ permalink: nhiep-anh/reviews/danh-gia-canon-r8-hoang-tu-like
 
 ### 1\. Ưu điểm nổi bật:
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/LEaf7t5"><img loading="lazy" src="https://lh3.googleusercontent.com/pw/AP1GczNWvHqq3t17Hcv-1aEKBTj0FHbfEP9ZnyLccIzzuSmDuyW3-FHJrj5c28dlaBtS8BosxD_5lVtD_Yb-4aCFiIlskSax-F7THeOu9MDAaTCaQd1_UVydCSL27HBVE9fch1TV2x_2nrjhORO50er_38opCw=w611-h917-s-no-gm?authuser=1" title="source: imgur.com" alt="ảnh được chụp từ Canon r8"></a></div>
 
 > **Hiệu năng vượt trội:** Thừa hưởng cảm biến và bộ xử lý từ R6 Mark II, mang đến chất lượng hình ảnh tuyệt vời.
@@ -67,7 +67,7 @@ Một trong những điểm mạnh khác của R8 là khả năng quay video 4K 
 
 Nhiều người dùng đã so sánh R8 với người tiền nhiệm Canon R và nhận thấy sự cải thiện đáng kể về chất lượng hình ảnh, tốc độ lấy nét và khả năng quay video. R8 cho ra file ảnh có dải dynamic range rộng hơn, màu sắc tự nhiên hơn và chi tiết tốt hơn. Đặc biệt, khả năng quay video 4K 60fps không cắt xén là một điểm cộng lớn so với Canon R. R8 mới hơn mạnh hơn R nhưng body kiểu nhẹ nhàng ko pro như R.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnntatlu%2Fposts%2Fpfbid0B8hRJWKpR5SxrLSb9EftT4fSSxERyjvzvEnpYZgS74bdscbXx2hfMsty91Ycqijal&width=552&show_text=true&appId=2086804534891096&height=755" width="552" height="755" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
 
 **So sánh với Canon RP:**
@@ -75,7 +75,7 @@ Giống hệt RP, có lẽ là cụm từ miêu tả gần đúng nhất khi c�
 - Thao tác máy có thể nói là gần như giống hệt RP, nếu bạn đang cầm 1 chiếc R6 R6II khi cầm vào R8 bạn sẽ hụt hẫng y xỳ như cầm vào RP vậy!
 - Tiếng màn chập cơ - có thể nói giống RP tới 90% - Bạn mong chờ R8 có một tiếng màn chập mạnh mẽ hơn  -> Bạn sẽ thất vọng!
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img loading="lazy" src="https://www.canonwatch.com/wp-content/uploads/2023/03/Screenshot-2023-03-24-at-16.08.01.jpg" alt="DXO chấm sensor của Canon R8 và so sánh với canon R3, R5"><br><p>DXO chấm sensor của Canon R8 và so sánh với canon R3, R5
 </p></div>
 
@@ -102,7 +102,7 @@ Canon R8 nổi bật với khả năng quay video 4K và lấy nét tự động
 
 **Tổng kết:**
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnntatlu%2Fposts%2Fpfbid02SFeskhwunsTJA3Rxs2RDF88MWQQx48mGqX6NPRgubDToTKCNk3pie2jJtHLpW4MBl&width=552&show_text=true&appId=2086804534891096&height=605" width="552" height="605" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
 
 Canon R8 là một chiếc máy ảnh đầy tiềm năng, phù hợp với những người đam mê nhiếp ảnh muốn trải nghiệm công nghệ mới với mức giá hợp lý. Tuy nhiên, trước khi quyết định mua, bạn nên cân nhắc kỹ các ưu và nhược điểm của sản phẩm này để đưa ra lựa chọn phù hợp nhất.

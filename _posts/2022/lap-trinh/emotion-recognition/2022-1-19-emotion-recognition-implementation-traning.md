@@ -108,7 +108,7 @@ Kết quả thử nghiệm trên dữ liệu kiểm tra đạt mức độ chín
 
 <hr>
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://123docz.net/document/14996221-kho-a-lua-n-he-tho-ng-nha-n-da-ng-ca-m-xu-c-guong-ma-t-realtime-cython-python-emotionrecognition.htm"><img loading="lazy" src="https://i.imgur.com/z27jJ5w.png" title="source: imgur.com" /></a>
 <a href="https://123docz.net/document/14996221-kho-a-lua-n-he-tho-ng-nha-n-da-ng-ca-m-xu-c-guong-ma-t-realtime-cython-python-emotionrecognition.htm" target="_blank" class="item-link item-content link external" id="facebook" onclick='getHrefOnclickAndRedirectWithLink(event)'>😍 Mình đã viết một báo cáo ở đây! Bạn tham khảo nhé!</a></div>
 

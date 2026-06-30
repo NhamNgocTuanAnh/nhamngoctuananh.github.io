@@ -36,7 +36,7 @@ Ví dụ mối quan hệ giữa các thực thể với nhau:
 * Một câu hỏi chỉ có thể đến từ một người.
 * v.v
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/QENBQeX"><img src="https://i.imgur.com/QENBQeX.png" title="source: imgur.com" /></a><p>Lược đồ cơ sở dữ liệu</p><br>
 <a href="https://imgur.com/3iYAUMK"><img src="https://i.imgur.com/3iYAUMK.png" title="source: imgur.com" /></a><p>Các bảng trong cơ sở dữ liệu</p><br><a href="https://imgur.com/eV7X4DC"><img src="https://i.imgur.com/eV7X4DC.png" title="source: imgur.com" /></a><p>Ví dụ về mô tả Bảng Users</p><br>
 </div>
@@ -58,7 +58,7 @@ Bạn có thể tìm hiểu thêm về API ở đây:
 
 #### Ví dụ về API:
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/zhv9YYE"><img src="https://i.imgur.com/zhv9YYE.png" title="source: imgur.com" /></a><p>API cho quản lý người dùng</p><br>
 </div>
 

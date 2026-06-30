@@ -48,7 +48,7 @@ Tết đến xuân sang, nhà nhà quây quần bên nhau, bánh chưng xanh, th
 
 Hiểu được tâm lý đó, hôm nay mình sẽ chia sẻ preset Lightroom Tết tông đỏ cực kỳ rực rỡ, giúp bạn biến hóa những bức ảnh bình thường thành những tác phẩm nghệ thuật đậm chất Tết.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/kbs9KOk.jpeg9"><img loading="lazy" src="https://i.imgur.com/kbs9KOk.jpeg" title="Tết nguyên đán" /></a></div>
 
 **Cách sử dụng preset Lightroom tết nguyên đán cổ điển**
@@ -69,7 +69,7 @@ Lưu ý:
 
 **Một số ảnh Lightroom nam tết nguyên đán cổ điển đẹp**
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/UxaUqQq"><img loading="lazy" src="https://i.imgur.com/zUbU04m.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/q2xbOkw"><img loading="lazy" src="https://i.imgur.com/v5HhBzW.jpeg" title="source: imgur.com" /></a><p></p><br><a href="https://imgur.com/d1IOdC4"><img loading="lazy" src="https://i.imgur.com/uo95Vsj.jpeg" title="source: imgur.com" /></a><p></p><br><img loading="lazy" src="https://i.imgur.com/5JGhBQQ.jpeg" title="source: imgur.com" /><p></p><br><img loading="lazy" src="https://i.imgur.com/WmaCW5o.jpeg" title="source: imgur.com" /><p></p><br><img loading="lazy" src="https://i.imgur.com/AASUFKK.jpeg" title="source: imgur.com" /><p></p><br><img loading="lazy" src="https://i.imgur.com/ug8Wn8U.jpeg" title="source: imgur.com" /><p></p><br><img loading="lazy" src="https://i.imgur.com/fwwnbs5.jpeg" title="source: imgur.com" /><p></p><br><img loading="lazy" src="https://i.imgur.com/OYmd9Fm.jpeg" title="source: imgur.com" /><p></p><br></div>
 
 <p><strong>Bonus:</strong></p><p>Để tăng th&ecirc;m sự d&iacute; dỏm cho bức ảnh, bạn c&oacute; thể th&ecirc;m c&aacute;c chi tiết vui nhộn như:</p>

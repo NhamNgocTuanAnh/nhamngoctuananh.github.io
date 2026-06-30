@@ -24,7 +24,7 @@ pinned: true
 
 Sen bắt đầu rộ bông vào những ngày cuối tháng 5 đầu tháng 6.  Bước vào mùa hè, thời tiết bắt đầu oi nóng, chính vì vậy những dịp đi xa khỏi thành phố để tận hưởng không khí trong lành, cùng với đó là sở hữu những tấm ảnh tuyệt vời quả là vui và thú vị phải không nào??. Và dưới đây mình sẽ đưa ra một số kinh nghiệm để các bạn có thể chụp ảnh với sen được tốt nhất nhé :
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <iframe src="https://assets.pinterest.com/ext/embed.html?id=691513717810421790" height="454" width="236" frameborder="0" scrolling="no" ></iframe>
 </div>
 
@@ -38,23 +38,23 @@ Sen bắt đầu rộ bông vào những ngày cuối tháng 5 đầu tháng 6. 
 Buổi chụp thực sự bắt đầu chụp từ 5h chiều, có hoàng hôn nên ánh sáng khá đẹp.
 Các bạn có thể xem một số cách tạo dáng gợi ý ở dưới dây để có cho mình những bộ hình với sen ưng ý nhé.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/44v9tze"><img alt="Chụp sen đầu mùa" src="https://i.imgur.com/44v9tze.jpg" title="source: imgur.com" /></a>
 </div><br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/7WDlKrk"><img alt="Chụp sen đầu mùa 1"  src="https://i.imgur.com/7WDlKrk.jpg" title="source: imgur.com" /></a></div>
 <br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/UtwLIOi"><img alt="Chụp sen đầu mùa 2"  src="https://i.imgur.com/UtwLIOi.jpg" title="source: imgur.com" /></a>
 </div><br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/S6Ma3LU"><img alt="Chụp sen đầu mùa 3"  src="https://i.imgur.com/S6Ma3LU.jpg" title="source: imgur.com" /></a></div><br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/dIuRELa"><img alt="Chụp sen đầu mùa 4"  src="https://i.imgur.com/dIuRELa.jpg" title="source: imgur.com" /></a></div><br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/VfC49iM"><img alt="Chụp sen đầu mùa"  src="https://i.imgur.com/VfC49iM.jpg" title="source: imgur.com" /></a></div>
 <br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;"><a href="https://imgur.com/G5bcYmv"><img src="https://i.imgur.com/G5bcYmv.jpg" title="source: imgur.com" alt="Chụp sen đầu mùa 5"/></a>
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;"><a href="https://imgur.com/G5bcYmv"><img src="https://i.imgur.com/G5bcYmv.jpg" title="source: imgur.com" alt="Chụp sen đầu mùa 5"/></a>
 </div>
 
 Nếu bạn yêu thích chụp hình với sen thì liên hệ với tụi mình để có được những bộ ảnh sen ưng ý nha.

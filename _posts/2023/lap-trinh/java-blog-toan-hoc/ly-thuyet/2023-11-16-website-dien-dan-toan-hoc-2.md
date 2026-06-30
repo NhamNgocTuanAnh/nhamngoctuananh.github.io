@@ -41,11 +41,11 @@ Trên đây là phần sơ lược về hoạt động cơ bản của diễn đ
 
 ## Sơ đồ quy trình nghiệp vụ
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/Zu7mkvp"><img src="https://i.imgur.com/Zu7mkvp.png" title="source: imgur.com" /></a><p>Sơ đồ quy trình nghiệp vụ</p><br>
 </div>
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/p0lBa93"><img src="https://i.imgur.com/p0lBa93.png" title="source: imgur.com" /></a><p>Từ các yêu cầu nghiệp vụ. Chúng ta có sơ đồ use-case</p><br>
 </div>
 

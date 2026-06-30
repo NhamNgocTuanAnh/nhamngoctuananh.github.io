@@ -43,7 +43,7 @@ Nội dung bài viết sẽ đề cập tới:
 
 #### 1\. Thiết kế và chất lượng:
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/LEaf7t5"><img loading="lazy" src="https://i.imgur.com/LEaf7t5.jpeg" title="source: imgur.com" alt="Canon 22mm + canon m"></a></div>
 
 * Thiết kế nhỏ gọn, chắc chắn và sang trọng, phù hợp với các dòng máy ảnh EOS M của Canon.
@@ -53,7 +53,7 @@ Nội dung bài viết sẽ đề cập tới:
 
 #### 2\. Chất lượng hình ảnh:
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://i.imgur.com/LklluqD"><img loading="lazy" src="https://i.imgur.com/LklluqD.png" title="source: imgur.com" alt="Canon 22mm + canon m"></a></div>
 
 * Độ sắc nét rất tốt, đặc biệt ở khẩu độ lớn.
@@ -61,7 +61,7 @@ Nội dung bài viết sẽ đề cập tới:
 * Bokeh mềm mại, tạo hiệu ứng xóa phông đẹp mắt.
 * Khả năng thu sáng tốt nhờ khẩu độ f/2.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a data-flickr-embed="true" data-footer="true" data-header="true" href="https://www.flickr.com/photos/sergiophotography/53109752629/" title="Warsaw - Warszawa by SergioThorPhoto, on Flickr"><img src="https://live.staticflickr.com/65535/53109752629_a2ff775f03_b.jpg" width="100%" alt="Warsaw - Warszawa"></a><br><p>bạn có thể truy cập vào đây để xem thêm ảnh từ cộng đồng</p></div><script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 > Đây là một ống kính tuyệt vời đa dụng cho dòng máy ảnh EOS M. Nó cực kỳ sắc nét và có chất lượng quang học tương tự như ống kính 23mm f/2 của Fuji trên dòng máy X100 của họ, hoặc ống kính SUMMICRON 35mm f/2 ASPH của LEICA ~ trích. kenrockwell

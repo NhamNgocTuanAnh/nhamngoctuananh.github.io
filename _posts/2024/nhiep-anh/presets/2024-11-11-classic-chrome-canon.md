@@ -34,12 +34,12 @@ Là một người đam mê màu phim, mình đã từng trải qua nhiều dòn
 Tuy nhiên, thời gian gần đây, vì nhiều lý do: vừa lười, vừa không phải lúc nào cũng có Lightroom bên cạnh để chỉnh sửa, mình bắt đầu tìm kiếm một giải pháp "ăn liền" hơn. Nhưng các preset FJ thì lại quá đắt đỏ.
 
 <br>
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://lh3.googleusercontent.com/pw/AP1GczPft8HzeFD8uv0wwGj8mwv7ojoCWFqSgLOUO-clet4kb4fRMJNhkd1f-EqbSgFZlUrxS6N-8arZzJ2xkxe0bMTdlzlpaTZQ7-PI0alsgcHPGBBFyKLdneXlbwwEyQyA7WaQ2shXcDXmNR3g4SRm462Pyw=w1053-h865-s-no-gm?authuser=1" title="source: imgur.com" alt="ảnh được chụp từ Canon r8"><br><p>Ảnh được chia sẻ bởi <a href="https://www.facebook.com/sonhaui18897/">Sơn</a></p></div>
 
 Vậy tại sao không chuyển preset thành Picture Style để tận dụng các đặc tính của màu phim ngay từ lúc chụp? Đây là câu hỏi mình tự đặt ra khi nhận ra Canon đã rất ưu ái người dùng, cung cấp đến 3 giả lập màu xuyên suốt qua nhiều năm. Ở Việt Nam, cũng có một số ít người làm về lĩnh vực này nhưng dường như chưa được chú ý nhiều.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://lh3.googleusercontent.com/pw/AP1GczMDYA-Kz-d2xEDFVBh0qON3QiK7uB4S6dh7yp-MKR9Sx2vjCjC0LxO1Lx436Ypz6hUnOxGpp8KRlvCfWX6qsnbrr6JbpFTrpwCZ52yZW0YnrcWpJbBJTUh5SKcB2lmlQK1reUGBDaNaDa5meoYL3oPTPg=w1053-h865-s-no-gm?authuser=1" title="source: imgur.com" alt="ảnh được chụp từ Canon r8"><br><p>Ảnh được chia sẻ bởi <a href="https://www.facebook.com/sonhaui18897/">Sơn</a></p></div>
 
 May mắn thay, mình biết đến một bạn nước ngoài, thông qua CanonStyle, đã chia sẻ một Picture Style tự làm, mang tên CC Smell-a-like for Canon Cameras. Mình rất cảm ơn bạn ấy vì điều này! 🌟. Và nay mình xin được chia sẻ lại vì 1 số lý do nào đó, web của bạn ấy đã không còn file đó nữa.
@@ -56,7 +56,7 @@ May mắn thay, mình biết đến một bạn nước ngoài, thông qua Canon
 *   mình vẫn đang làm quen với phần mềm Canon (hiện không phải fan lắm).
 *   mình làm điều này để vui, hy vọng bạn cũng vậy.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://lh3.googleusercontent.com/pw/AP1GczMwOhLoB7NloAQVu19YyJVOsNrpe-kp3CfugvNCvT8F245NfhQNijUFd927G3L7smb9FUakx36yRgYmyhQLFjzpn1G5y0EgvmY59-qJe0ygudNkkzQVsj4wXpVdJHxOn63pBwJrRqkK_x6wiqMcK9Qg_A=w1053-h865-s-no-gm?authuser=1" title="source: imgur.com" alt="ảnh được chụp từ Canon r8"><br><p>Ảnh được chia sẻ bởi <a href="https://www.facebook.com/sonhaui18897/">Sơn</a></p></div>
 
 Dưới đây là 1 số bài viết tham khảo đến từ các nhiếp ảnh gia Việt Nam.
@@ -116,7 +116,7 @@ Một lần nữa xin cám ơn tác giả [_CanonStyle_](https://www.canonstyle.
 
 ### Góc ý cải thiện:
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <img class="lazyload img-thumb loaded lazyloaded" loading="lazy" src="https://lh3.googleusercontent.com/pw/AP1GczODP08FtwmGT8JIyhZPWLo9tjBojGcx3d9KuK5s0DAsdPlCN4GNdWX6rlcHhx6sg9n3G3ewX6VX11DJ52Sh9NN9NqFKITW0saZ6v19i87EcGii7UwIlI4ZlZMJf2OjUtEHk2LMg69e5tFd0dAtM9W_X1g=w1053-h865-s-no-gm?authuser=1" title="source: imgur.com" alt="ảnh được chụp từ Canon r8"><br><p>Ảnh được chia sẻ bởi <a href="https://www.facebook.com/sonhaui18897/">Sơn</a></p></div>
 
 Mặc dù Picture Style trên Canon không có độ tùy chỉnh sâu sắc như Fujifilm, nhưng chúng ta vẫn có thể tạo ra những bức ảnh mang đậm chất điện ảnh bằng cách mô phỏng các chế độ màu đặc trưng của hãng này.

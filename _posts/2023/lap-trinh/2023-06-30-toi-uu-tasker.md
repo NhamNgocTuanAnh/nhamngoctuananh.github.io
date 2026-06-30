@@ -40,21 +40,21 @@ permalink: lap-trinh/cach-toi-uu-tasker-android
 
 Đánh dấu các điểm wifi ở nhà thay vì dùng GPS để xác định.
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/trdpaEJ"><img src="https://i.imgur.com/trdpaEJ.png" title="source: imgur.com" /></a></div>
 
 #### A. Khi ở nhà:
 
 Tắt mạng LTE, đổi DNS riêng, chuyển mạng mobile từ 4G sang 2G
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/wXo2Lh0"><img src="https://i.imgur.com/wXo2Lh0.jpg" title="source: imgur.com" /></a></div>
 
 #### B. Khi ở đi ra ngoài:
 
 Khi không còn kết nối với những điểm wifi và chế độ trên máy bay đang tắt. Chuyển mạng sang 4G hoặc 5G. chuyển sang DNS chặn quảng cáo, bật mobile data và GPS set mức cao
 
-<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 80%;">
 <a href="https://imgur.com/AUtOJJV"><img src="https://i.imgur.com/AUtOJJV.jpg" title="source: imgur.com" /></a></div>
 
 > Mình sẽ lên loạt bài hướng dẫn sau, AE có profile gì hay ho, nhớ chia sẻ cho mọi người cùng vui nhé!!
