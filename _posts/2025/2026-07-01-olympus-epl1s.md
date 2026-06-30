@@ -49,7 +49,10 @@ E-PL1s là bản nâng cấp nhẹ của E-PL1. Trái tim của nó vẫn là c�
 ### Linh hồn của E-PL1s: Màu sắc và Cảm biến
 
 <div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
-<img class="lazyload" loading="lazy" data-src="https://photos.app.goo.gl/vML7ytuHRiu93TDL6" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">OLYMPUS IMAGING CORP. E-PL1s || 1/800 || ISO200</span></div>
+<img class="lazyload" loading="lazy" data-src="https://lh3.googleusercontent.com/pw/AP1GczM_lKm-wC7FyH6f_jUPsB_mLVkL5aRdnAtSAvp36YyPnrDCGj23eF50pJIJgx1zGVHuqlYjja16FX0E3mneqYoegTbhtaKSYjMcuN5xxSReKcy-7dSO70-QkEezCHrdcGSRWcfGKkvBXKBOd8eoMkNi-Q=w1340-h1005-s-no-gm?authuser=0" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">OLYMPUS IMAGING CORP. E-PL1s || 1/800 || ISO200</span></div>
+
+<div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 50%;">
+<img class="lazyload" loading="lazy" data-src="https://lh3.googleusercontent.com/pw/AP1GczMivxASNdwLc747zCwxm08SB8ZxcFVFrFj5jjcdtKcRfHd8IoqHD85wCt-t2rt8KxlaaoewRTYf-UI98_FERJjWllbWJxU3YpfNmzEJMFUmIzlzrj0h=w2400" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">OLYMPUS IMAGING CORP. E-PL1s || 1/800 || ISO200</span></div>
 
 1.  **Màu JPEG Cực Kỳ Đẹp:** Đây là lý do máy vẫn được săn lùng. Da người hơi vàng nhẹ, xanh lá dịu, bầu trời xanh đậm, vùng highlight chuyển mềm. Olympus xử lý ảnh mang lại cảm giác "film" thực thụ chứ không phải cố gồng mình giả lập film. Contrast, Saturation và Sharpen ra khỏi máy cực kỳ tự nhiên, up Instagram được luôn.
 2.  **Noise Rất Đẹp:** ISO 200-400-800 cho ra hạt nhiễu (grain) cực đẹp. ISO 1600 vẫn dùng tốt. ISO 3200 bắt đầu bệt và 6400 chỉ để chữa cháy.
