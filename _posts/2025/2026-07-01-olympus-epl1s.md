@@ -76,7 +76,7 @@ ISO200 </span></div>
 ## PHẦN 2: THIẾT LẬP MÀU SẮC - TÌM KIẾM CHẤT "FUJIKODAR"
 
 <div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 70%;">
-<img class="lazyload" loading="lazy" data-src="https://photos.fife.usercontent.google.com/pw/AP1GczN53C5CavPW0cUG5yjrZhkBgeS5soTOhDAdr9K7wyFbY9mGyFdwCJkphQ=w1536-h1024-s-no-gm?authuser=1" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">công thức (Recipe) JPEG</span></div>
+<img class="lazyload" loading="lazy" data-src="https://lh3.googleusercontent.com/pw/AP1GczNDK1WL5PLf8dhZ17OrlWGiZ7UqQRqdyJCRy_PznMCVYwpwQT1c_xhHvxdnNdz_JlhsQQ25RzvFVg7UrwIziwx5OKvm305GIJ57Ua2LZ4_68Q6Wo04w-bQp_7aZq3cKcZv6EQIgIsLfjo7PDtmbcl_oAg=w1536-h1024-s-no-gm?authuser=1" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">công thức (Recipe) JPEG</span></div>
 
 Đừng cố biến Olympus thành Fujifilm. Sức mạnh của Olympus nằm ở tông ấm, chuyển màu mềm và highlight dịu. Mua máy này về chụp RAW rồi kéo Lightroom thì vứt đi bản sắc của nó. Hãy sử dụng các công thức (Recipe) JPEG dưới đây.
 
@@ -109,7 +109,7 @@ _Lưu ý: E-PL1s không lưu được nhiều profile ra phím cứng. Lời khu
 *   WB: 5600K | EV: +0.3
 
 <div class="content" style="text-align:center;display: block;margin-left: auto;margin-right: auto;width: 70%;">
-<img class="lazyload" loading="lazy" data-src="https://photos.fife.usercontent.google.com/pw/AP1GczNmDsOEMSOYhy0dCtBMjb0bmiAjPWExKaFsbzdYHK7ZfchyX84BOhynbQ=w1402-h1122-s-no-gm?authuser=1" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">công thức (Recipe) JPEG</span></div>
+<img class="lazyload" loading="lazy" data-src="https://lh3.googleusercontent.com/pw/AP1GczO5oj1edET_G9UAzbQnE6MHO_i9y_K9fR5qI06aI3GSRllmb7USzEGfysJ2TAcw5GDJ3vQyV8k7fiWmvwAnNBvVF160YS8uKfc1B4OpGL2_6xogttpg-k6FMDnITzR4zUmbnB11faNXZANoHzuzQnUH5w=w1402-h1122-s-no-gm?authuser=1" class=" lazyload img-thumb lazyimg " /><br><span class="image-caption">công thức (Recipe) JPEG</span></div>
 
 💡 **BÍ QUYẾT TỐI THƯỢNG:** Ánh sáng quyết định 70% màu phim. Hãy chụp vào giờ vàng (6h30-8h30 sáng hoặc 16h30-18h chiều). Tránh nắng trưa gắt. Hãy để highlight cháy nhẹ tự nhiên, đừng cố cứu. ISO thấp để hạt mịn, hoặc chủ động đẩy ISO 800-1600 nếu muốn hạt rõ rệt. Có thể gắn thêm filter Black Mist 1/8 hoặc 1/4 để tạo hiệu ứng Bloom cho vùng sáng.
 
