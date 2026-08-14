@@ -5,7 +5,7 @@ backend:
   branch: anhnnt-master # hoặc master tùy cấu hình repo của bạn
   
   # Thông số này sẽ cấu hình ở Bước 3 (tạm thời để trống hoặc điền sau)
-  site_domain: https://phenomenal-lolly-bbed3e.netlify.app/ 
+  site_domain: https://phenomenal-lolly-bbed3e.netlify.app
 
 # Cấu hình lưu trữ hình ảnh
 media_folder: "assets/images/uploads"
