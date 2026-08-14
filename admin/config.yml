@@ -1,0 +1,30 @@
+backend:
+  name: github
+  # ĐIỀN THÔNG TIN CỦA BẠN VÀO ĐÂY:
+  repo: anhhangxomfoto/anhhangxomfoto.github.io 
+  branch: anhnnt-master # hoặc master tùy cấu hình repo của bạn
+  
+  # Thông số này sẽ cấu hình ở Bước 3 (tạm thời để trống hoặc điền sau)
+  site_domain: https://phenomenal-lolly-bbed3e.netlify.app/ 
+
+# Cấu hình lưu trữ hình ảnh
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+# Tắt tính năng xem trước (Live Preview) vì nó hay bị vỡ layout với Jekyll Liquid
+editor:
+  preview: false
+
+collections:
+  - name: "posts"
+    label: "Bài Viết"
+    folder: "_posts"
+    create: true
+    # BẮT BUỘC CHO JEKYLL: Định dạng tên tệp phải có ngày tháng
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      # Trường ẩn này tự động chèn 'layout: post' vào bài viết mới
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Ngày đăng", name: "date", widget: "datetime" }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
