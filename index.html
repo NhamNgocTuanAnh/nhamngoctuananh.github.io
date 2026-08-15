@@ -3,7 +3,9 @@ layout: default
 title: Trang chủ
 ---
 <hr>
+{% if paginator.page == 1 %}
 {% include my-album-home.html %}</section>
+{% endif %}
 <hr>
 <h2 id="h2-moi-nhat" class="mb-4 h2-animation">Bài viết mới nhất</h2>
 <div class="blog-grid-container">
@@ -31,6 +33,7 @@ title: Trang chủ
     <hr>
     <h2 style="color: #3a3a3a;" class="mb-4" >Chủ đề</h2>
 {% include categories-home.html %}
+{% if paginator.page == 1 %}
 <hr><h2 style="color: #3a3a3a;" class="mb-4" >Nhiếp ảnh 📸</h2>
 
 {% assign maxRelatednhiepanhs = 3 %}
@@ -86,6 +89,7 @@ title: Trang chủ
 <div class="blog-grid-item"></div>
 <div class="blog-grid-item"></div>
 <div class="blog-grid-item"></div></div>
+{% if paginator.page == 1 %}
 {% assign duhis = site.categories['Du hí 🛫'] %}
 {% for post in duhis %}
 {% assign position = forloop.index0 %}
@@ -98,7 +102,8 @@ title: Trang chủ
 {% endif %}
 {% endfor %}
 </div>
-
+{% endif %}
+{% endif %}
 <style>
     #h2-moi-nhat{color:#3a3a3a}.h2-animation{animation:fade-up .7s ease-out forwards}@keyframes fade-up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
     .card { overflow:hidden;
