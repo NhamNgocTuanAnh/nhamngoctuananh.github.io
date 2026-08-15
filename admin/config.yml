@@ -21,6 +21,8 @@ collections:
   - name: "posts"
     label: "Bài Viết"
     folder: "_posts"
+    nested:
+      depth: 10
     create: true
     path: "{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}"
     # BẮT BUỘC CHO JEKYLL: Định dạng tên tệp phải có ngày tháng
