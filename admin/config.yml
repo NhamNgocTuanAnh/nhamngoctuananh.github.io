@@ -20,8 +20,14 @@ collections:
     # BẮT BUỘC CHO JEKYLL: Định dạng tên tệp phải có ngày tháng
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      # Trường ẩn này tự động chèn 'layout: post' vào bài viết mới
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Ngày đăng", name: "date", widget: "datetime" }
-      - { label: "Nội dung", name: "body", widget: "markdown" }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Tiêu đề", name: "title", widget: "string"}
+      - {label: "Tác giả", name: "author", widget: "string", default: "sal"}
+      - {label: "Chế độ tải ảnh", name: "lazyimages", widget: "hidden", default: "enabled"}
+      - {label: "Chuyên mục", name: "categories", widget: "list", default: ["Sức khỏe 💪"]}
+      - {label: "Từ khóa (Tags)", name: "tags", widget: "list"}
+      - {label: "Ảnh đại diện", name: "image", widget: "image", required: false}
+      - {label: "Đánh giá sao", name: "rating", widget: "number", value_type: "float", required: false}
+      - {label: "Bình luận", name: "comments", widget: "boolean", default: true}
+      - {label: "Đoạn trích dẫn", name: "excerpt", widget: "text", required: false}
+      - {label: "Nội dung bài viết", name: "body", widget: "markdown"}
