@@ -184,21 +184,3 @@ exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
 disqus_shortname: "anhhangxom"
 url: "https://anhhangxomfoto.github.io" # Cần khai báo URL chuẩn để định danh comment
 
-backend:
-  name: github
-  repo: anhhangxomfoto/anhhangxomfoto.github.io # Replace with your GitHub username and repository name
-  branch: anhnnt-master # The branch you want to target (optional, defaults to master)
-
-media_folder: "public/images" # Where media files will be saved
-public_folder: "/images" # The src path for images in your HTML
-
-collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
