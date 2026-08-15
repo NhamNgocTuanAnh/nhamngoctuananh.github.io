@@ -60,7 +60,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
-        shell: bash
         id: deployment
         uses: actions/deploy-pages@v4
 
