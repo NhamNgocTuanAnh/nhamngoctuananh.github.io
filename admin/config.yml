@@ -17,6 +17,7 @@ collections:
     label: "Bài Viết"
     folder: "_posts"
     create: true
+    path: "{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}"
     # BẮT BUỘC CHO JEKYLL: Định dạng tên tệp phải có ngày tháng
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -26,7 +27,7 @@ collections:
       - {label: "Chế độ tải ảnh", name: "lazyimages", widget: "hidden", default: "enabled"}
       - {label: "Chuyên mục", name: "categories", widget: "list", default: ["Sức khỏe 💪"]}
       - {label: "Từ khóa (Tags)", name: "tags", widget: "list"}
-      - {label: "Ảnh đại diện", name: "image", widget: "image", required: false}
+      - {label: "Ảnh đại diện", name: "image", widget: "image", default: "assets/images/2025/neewer-q120-avt.webp", required: false}
       - {label: "Đánh giá sao", name: "rating", widget: "number", value_type: "float", required: false}
       - {label: "Bình luận", name: "comments", widget: "boolean", default: true}
       - {label: "Đoạn trích dẫn", name: "excerpt", widget: "text", required: false}
