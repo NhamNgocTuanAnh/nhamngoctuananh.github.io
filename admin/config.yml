@@ -3,7 +3,10 @@ backend:
   repo: anhhangxomfoto/anhhangxomfoto.github.io
   branch: anhnnt-master 
   site_domain: phenomenal-lolly-bbed3e.netlify.app
-
+slug:
+  encoding: "unicode"
+  clean_accents: true
+  sanitize_replacement: "-"
 # Cấu hình lưu trữ hình ảnh
 media_folder: "assets/images/uploads"
 public_folder: "/assets/images/uploads"
