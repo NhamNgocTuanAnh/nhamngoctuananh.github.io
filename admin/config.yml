@@ -2,7 +2,7 @@ backend:
   name: github
   repo: anhhangxomfoto/anhhangxomfoto.github.io
   branch: anhnnt-master 
-  base_url: https://phenomenal-lolly-bbed3e.netlify.app
+  site_domain: phenomenal-lolly-bbed3e.netlify.app
 
 # Cấu hình lưu trữ hình ảnh
 media_folder: "assets/images/uploads"
